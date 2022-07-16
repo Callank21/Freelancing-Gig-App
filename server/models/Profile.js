@@ -27,8 +27,7 @@ const profileSchema = new Schema(
         hours: {
             type: Number
         },
-        user: {
-            type: Schema.Types.ObjectId,
+        username: {
             ref: 'User',
             required: true
         }
