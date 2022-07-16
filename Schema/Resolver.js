@@ -1,18 +1,18 @@
-// const { users } = require(Mongodb call to users)
+const { User } = require('../Models');
 
 const resolvers = {
     Query: {
         getAllUsers() {
-            return users;
+            return User;
         },
     },
     Mutation: {
         CreateUser(parent, args) {
             const newUser = args
-            users.push(newUser);
+            User.push(newUser);
             return newUser;
         }
     }
 };
 
-module.exports = {resolvers };
+module.exports = { resolvers };

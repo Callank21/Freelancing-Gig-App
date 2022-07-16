@@ -3,26 +3,41 @@ const { gql } = require("apollo-server-express");
 const typeDefs = gql`
 
     type User {
-        id: ID!
         email: String!
         password: String!
-        profile: [Profile]
+        profile: Profile
     }
 
     type Profile {
-        id: ID!
         name: String!
         devType: devType!
         wage: Int!
         description: String!
-        workHistory: String!
-        education: String!
-        hours: Int!
+        workHistory: String
+        education: String
+        hours: Int
+        user: User!
     }
     
     # Queries
     type Query {
         users: [User!]!
+    }
+
+    # Mutations
+    input CreateUserInput {
+        name: String!
+        devType: devType!
+        wage: Int!
+        description: String!
+        workHistory: String
+        education: String
+        hours: Int
+        user: User!
+    }
+
+    type Mutation {
+        createUser(input: CreateUserInput!): User!
     }
 
     # enum
