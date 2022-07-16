@@ -18,27 +18,6 @@ const typeDefs = gql`
         hours: Int
         user: User!
     }
-    
-    # Queries
-    type Query {
-        users: [User!]!
-    }
-
-    # Mutations
-    input CreateUserInput {
-        name: String!
-        devType: devType!
-        wage: Int!
-        description: String!
-        workHistory: String
-        education: String
-        hours: Int
-        user: User!
-    }
-
-    type Mutation {
-        createUser(input: CreateUserInput!): User!
-    }
 
     # enum
     enum devType {
@@ -54,11 +33,35 @@ const typeDefs = gql`
         MOBILE
         GRAPHICS
     }
+    
+    # Queries
+    type Query {
+        users: [User!]!
+        profiles: [Profile!]!
+    }
+
+    # Input
+    input createUserInput {
+        email: String!
+        password: String!
+        profile: Profile
+    }
+    input createProfInput {
+        name: String!
+        devType: devType!
+        wage: Int!
+        description: String!
+        workHistory: String
+        education: String
+        hours: Int
+        user: User!
+    }
 
     # Mutations
     type Mutation {
-        createUser(email: String!, password: String!): User!
+        createUser(createUserInput!): User!
+        createProfile(input: createProfInput!): Profile!
     }
 `
 
-module.exports = { typeDefs };
+module.exports = typeDefs;

@@ -1,18 +1,29 @@
-const { User } = require('../Models');
+const { AuthenticationError } = require('apollo-server-express');
+const { User, Profile } = require('../models');
+const { signToken } = require('../utils/auth');
 
 const resolvers = {
     Query: {
-        getAllUsers() {
-            return User;
+        users: async () => {
+            return User.find()
         },
+        profiles: async () => {
+            return Profile.find()
+        }
     },
+
     Mutation: {
-        CreateUser(parent, args) {
-            const newUser = args
+        createUser(parent, args) {
+            const newUser = args;
+            User.push(newUser);
+            return newUser;
+        },
+        createProfile(parent, args) {
+            const newUser = args;
             User.push(newUser);
             return newUser;
         }
     }
 };
 
-module.exports = { resolvers };
+module.exports = resolvers;
