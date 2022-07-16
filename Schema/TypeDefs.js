@@ -25,19 +25,21 @@ const typeDefs = gql`
         users: [User!]!
     }
 
-    #enum devType {
-        Software
-        Web
-        Front-End
-        Back-End
-        Full-Stack
-        Game
-        Big-data
+    # enum
+    enum devType {
+        SOFTWARE
+        WEB
+        FRONT-END
+        BACK-END
+        FULL-STACK
+        GAME
+        BIG-DATA
         CRM
-        Security
-        Mobile
-        Graphics
+        SECURITY
+        MOBILE
+        GRAPHICS
     }
+
     # Mutations
     type Mutation {
         createUser(email: String!, password: String!): User!
