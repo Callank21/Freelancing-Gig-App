@@ -3,36 +3,23 @@ const { gql } = require("apollo-server-express");
 const typeDefs = gql`
 
     type User {
+        _id: ID
         email: String!
         password: String!
-        profile: Profile
     }
 
     type Profile {
+        _id: ID
         name: String!
-        devType: devType!
+        devType: String!
         wage: Int!
         description: String!
         workHistory: String
         education: String
         hours: Int
-        user: User!
     }
 
-    # enum
-    enum devType {
-        SOFTWARE
-        WEB
-        FRONT-END
-        BACK-END
-        FULL-STACK
-        GAME
-        BIG-DATA
-        CRM
-        SECURITY
-        MOBILE
-        GRAPHICS
-    }
+
     
     # Queries
     type Query {
@@ -44,22 +31,20 @@ const typeDefs = gql`
     input createUserInput {
         email: String!
         password: String!
-        profile: Profile
     }
     input createProfInput {
         name: String!
-        devType: devType!
+        devType: String!
         wage: Int!
         description: String!
         workHistory: String
         education: String
         hours: Int
-        user: User!
     }
 
     # Mutations
     type Mutation {
-        createUser(createUserInput!): User!
+        createUser(input: createUserInput!): User!
         createProfile(input: createProfInput!): Profile!
     }
 `

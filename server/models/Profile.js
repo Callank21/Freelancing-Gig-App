@@ -1,4 +1,5 @@
 const { Schema, model, Types } = require('mongoose');
+const User = require('./User');
 
 const profileSchema = new Schema(
     {
@@ -26,10 +27,6 @@ const profileSchema = new Schema(
         },
         hours: {
             type: Number
-        },
-        username: {
-            ref: 'User',
-            required: true
         }
     },
     {
