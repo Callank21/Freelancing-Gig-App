@@ -50,13 +50,14 @@ const typeDefs = gql`
     workHistory: [String]
     education: [String]
     hours: Int
+    username: String!
   }
 
   # Mutations
   type Mutation {
     login(email: String!, password: String!): Auth
-    createUser(input: createUserInput!): Auth
-    createProfile(input: createProfInput!): Profile
+    createUser(input: createUserInput): Auth
+    createProfile(input: createProfInput): Profile
   }
 `;
 

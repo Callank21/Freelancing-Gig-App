@@ -32,6 +32,10 @@ const profileSchema = new Schema(
     hours: {
       type: Number,
     },
+    username: {
+      type: String,
+      required: true,
+    },
   },
   {
     toJSON: {
