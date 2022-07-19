@@ -1,32 +1,38 @@
 [
-    { 
-        "username" : "Molly48", 
-        "email" : "Molly48_Waters59@hotmail.com", 
-        "password" : "kGjRfUNWUIRwfS_"
-    },
-    { 
-        "username" : "Katlyn85", 
-        "email" : "Katlyn8550@gmail.com", 
-        "password" : "otK5YtXpcalD1cm"
-    },
-    { 
-        "username" : "Lessie_Kautzer61", 
-        "email" : "Lessie_Kautzer61_Walker81@hotmail.com", 
-        "password" : "AP3EUTRZoxzsiHn"
-    },
-    { 
-        "username" : "Anjali5", 
-        "email" : "Anjali5.Bergnaum@yahoo.com", 
-        "password" : "lPyRtzle1LjkjIe"
-    },
-    { 
-        "username" : "Daija.Rempel", 
-        "email" : "Daija.Rempel_Schuster@yahoo.com", 
-        "password" : "x5KHTb5d1x4DUtu"
-    },
-    { 
-        "username" : "Donny21", 
-        "email" : "Donny2191@yahoo.com", 
-        "password" : "gKbsfF3M9jeBRcH"
-    }
+  {
+    "username": "Molly48",
+    "email": "Molly48_Waters59@hotmail.com",
+    "password": "kGjRfUNWUIRwfS_",
+    "profile": []
+  },
+  {
+    "username": "Katlyn85",
+    "email": "Katlyn8550@gmail.com",
+    "password": "otK5YtXpcalD1cm",
+    "profile": []
+  },
+  {
+    "username": "Lessie_Kautzer61",
+    "email": "Lessie_Kautzer61_Walker81@hotmail.com",
+    "password": "AP3EUTRZoxzsiHn",
+    "profile": []
+  },
+  {
+    "username": "Anjali5",
+    "email": "Anjali5.Bergnaum@yahoo.com",
+    "password": "lPyRtzle1LjkjIe",
+    "profile": []
+  },
+  {
+    "username": "Daija.Rempel",
+    "email": "Daija.Rempel_Schuster@yahoo.com",
+    "password": "x5KHTb5d1x4DUtu",
+    "profile": []
+  },
+  {
+    "username": "Donny21",
+    "email": "Donny2191@yahoo.com",
+    "password": "gKbsfF3M9jeBRcH",
+    "profile": []
+  }
 ]
