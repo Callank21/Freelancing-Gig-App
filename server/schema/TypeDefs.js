@@ -42,22 +42,19 @@ const typeDefs = gql`
     password: String!
   }
 
-  input createProfInput {
-    name: String!
-    devType: String!
-    wage: Int!
-    description: String!
-    workHistory: [String]
-    education: [String]
-    hours: Int
-    username: String!
-  }
-
   # Mutations
   type Mutation {
     login(email: String!, password: String!): Auth
     createUser(input: createUserInput): Auth
-    createProfile(input: createProfInput): Profile
+    createProfile(
+      name: String!
+      devType: String!
+      wage: Int!
+      description: String!
+      workHistory: String
+      education: String
+      hours: Int
+    ): Profile
   }
 `;
 

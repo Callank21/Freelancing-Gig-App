@@ -34,7 +34,6 @@ const profileSchema = new Schema(
     },
     username: {
       type: String,
-      required: true,
     },
   },
   {
