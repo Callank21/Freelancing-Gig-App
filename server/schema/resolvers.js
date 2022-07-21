@@ -41,6 +41,7 @@ const resolvers = {
 
       return { token, user };
     },
+
     login: async (parent, { email, password }) => {
       const user = await User.findOne({ email });
 
@@ -56,6 +57,16 @@ const resolvers = {
 
       const token = signToken(user);
       return { token, user };
+    },
+    deleteUser: async (parent, { username }, context) => {
+      if (context.user) {
+        const userData = await User.deleteOne({
+          _id: context.user._id,
+        });
+        await Profile.deleteMany({ username: username });
+        return userData;
+      }
+      throw new AuthenticationError('No user found!');
     },
     createProfile: async (parent, args, context) => {
       if (context.user) {
