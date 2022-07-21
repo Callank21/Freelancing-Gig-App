@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+/* -------- */
+
+@media screen and (max-width: 400px) {
+  #developers {
+    padding: 20px;
+    width: 111%;
+  }
+  #contact,
+  #footer {
+    width: 111%;
+  }
+
+  #portfolio {
+    width: 110%;
+  }
+}
