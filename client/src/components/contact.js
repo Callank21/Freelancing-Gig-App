@@ -29,7 +29,7 @@ export const Contact = (props) => {
           </div>
         </div>
         
-        {/* Footer */}
+        {/* ------- Footer -------*/}
         <div id='footer'>
           <div className='container '>
             <p>
