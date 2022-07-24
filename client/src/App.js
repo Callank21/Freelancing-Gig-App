@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import { useState, useEffect } from "react";
-import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import { Developers } from "./components/developers";
-import { Contact } from "./components/contact";
+import  HomePage  from "./components/homePage";
+// import { Header } from "./components/header";
+// import { Developers } from "./components/developers";
+// import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import "./App.css";
 
@@ -19,11 +19,8 @@ function App() {
 
   return (
     <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      <Developers data={landingPageData.Developers} />
-      <Contact data={landingPageData.Contact} />
-    </div>
+    <HomePage data={landingPageData.homePage} />
+  </div>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />

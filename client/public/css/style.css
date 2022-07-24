@@ -263,24 +263,20 @@ header .intro-text {
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
 section {
-  display: flex;
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
   content: center;
   align-items: center;
-  display: flex;
 }
 
-.developers h2 {
+h2 {
   text-transform: uppercase;
   margin: 50px 0 20px 0;
   font-weight: 800;
   font-size: 50px;
   color: #333;
   width: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .card {
@@ -301,6 +297,16 @@ section {
   box-shadow: -15px 15px 28px #171717, 0 10px 10px #171717;
   transform: translateY(-25px);
 }
+
+.devCards {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  content: center;
+  display: flex;
+  align-items: center;
+}
+
 
 /* ------------ Contact Section --------- */
 #contact {
