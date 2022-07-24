@@ -6,7 +6,7 @@ const Navigation = (props) => {
     <nav id='menu' className='navbar'>
 
       <div className='navbar-header'>             
-        <a className='navbar-brand' href='#/'>Freelancr</a>
+        <a className='navbar-brand' href='#/'>Freelancr<span className='dot'>.</span></a>
       </div>
         
       <div className='containerr'>
@@ -15,7 +15,7 @@ const Navigation = (props) => {
         <div>
           <ul className='nav'>
             <li>
-              <a href='#developers'>Developers</a>
+              <a href='#developers'>DEVELOPERS</a>
             </li>
             <li>
               <a href='#about'>LOGIN</a>
@@ -24,7 +24,7 @@ const Navigation = (props) => {
               <a href='#services'>SIGNUP</a>
             </li>
             <li>
-              <a href='#services'>SETTINGS</a>
+            <a href="#/Settings"><i className="fa-solid fa-cog "></i></a>
             </li>
           </ul>
         </div>

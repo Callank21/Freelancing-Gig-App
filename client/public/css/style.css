@@ -1,4 +1,3 @@
-
 body,
 html {
   font-family: "Open Sans", sans-serif;
@@ -54,7 +53,8 @@ p.intro {
 }
 a {
   color: #608dfd;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 18px;
 }
 a:hover,
 a:focus {
@@ -82,10 +82,13 @@ hr {
 }
 
 /* ------- Navigation --------- */
+.dot {
+  color: #6372ff;
 
+}
 a.navbar-brand {
   font-family: "Raleway", sans-serif;
-  font-size: 24px;
+  font-size: 34px;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
@@ -95,7 +98,7 @@ a.navbar-brand {
 .navbar-header {
   float: left;
   padding-left: 5%;
-  padding-top: 36px;
+  padding-top: 20px;
 }
 
 .nav {
@@ -149,6 +152,7 @@ nav ul li ul li a {
   nav ul li {
     float: none;
   }
+  
   nav ul li a {
     padding: 15px;
     line-height: 20px;
@@ -157,6 +161,10 @@ nav ul li ul li a {
     padding-left: 30px;
   }
 }
+.fa-cog {
+  padding-top: 27px;
+}
+
 #nav-toggle {
   position: absolute;
   left: 18px;
@@ -213,7 +221,7 @@ nav ul li ul li a {
   margin: 0 auto;
 }
 
-/* --------- Login/Signup Section ------ */
+/* ------------------ */
 .formz {
   background: #f6f5f7;
 	display: flex;
@@ -251,7 +259,7 @@ nav ul li ul li a {
 	font-size: 12px;
 }
 
-a {
+.forgot-password {
 	color: #333;
 	font-size: 14px;
 	text-decoration: none;

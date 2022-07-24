@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import { useState, useEffect } from "react";
 import  HomePage  from "./components/homePage";
+// import Login from "./components/login";
+// import Signup from "./components/signup";
 // import { Header } from "./components/header";
 // import { Developers } from "./components/developers";
 // import { Contact } from "./components/contact";
