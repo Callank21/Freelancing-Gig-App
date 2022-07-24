@@ -1,5 +1,4 @@
 import React from "react";
-import "../../App.css";
 
 const CategoryPage = (props) => {
   return (
@@ -40,7 +39,7 @@ const CategoryPage = (props) => {
 					</a>
 				</div>
 			</div>
-		</div>
+      </div>
 	);
 };
 
