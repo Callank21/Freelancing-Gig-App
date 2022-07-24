@@ -15,7 +15,7 @@ const Navigation = (props) => {
         <div>
           <ul className='nav'>
             <li>
-              <a href='#features'>Developers</a>
+              <a href='#developers'>Developers</a>
             </li>
             <li>
               <a href='#about'>LOGIN</a>
@@ -53,7 +53,7 @@ const Navigation = (props) => {
 
   <section>
      
-     <div className="developers"><h2>Developers</h2></div>
+     <div className="developers" id="developers"><h2>Developers</h2></div>
      <div className="devCards">
      <article className="card">
         <h1>Software Developers</h1>
