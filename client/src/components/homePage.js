@@ -9,7 +9,7 @@ const Navigation = (props) => {
         <a className='navbar-brand' href='#/'>Freelancr</a>
       </div>
         
-      <div className='container'>
+      <div className='containerr'>
 
      
         <div>
@@ -22,6 +22,9 @@ const Navigation = (props) => {
             </li>
             <li>
               <a href='#services'>SIGNUP</a>
+            </li>
+            <li>
+              <a href='#services'>SETTINGS</a>
             </li>
           </ul>
         </div>
@@ -42,7 +45,7 @@ const Navigation = (props) => {
                     <span>.</span>
                   </h1>
                   <p>{props.data ? props.data.paragraph : 'Hire freelance developers to shorter development cycles, develop websites and drive product growth.'}</p>
-                  <a href='#features' className='Create-profile'> Create Profile </a>{' '}
+                  {/* <a href='#features' className='Create-profile'> Create Profile </a>{' '} */}
                 </div>
               </div>
             </div>
@@ -114,7 +117,7 @@ const Navigation = (props) => {
              </li>
              <li>
                <a href={props.data ? props.data.youtube : '/'}>
-                 <i className='fab fa-youtube fa'></i>
+                 <i className='fab fa-twitter fa'></i>
                </a>
              </li>
            </ul>
