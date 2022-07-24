@@ -103,18 +103,18 @@ const Navigation = (props) => {
            <ul>
              <li>
                <a href={props.data ? props.data.github : 'https://github.com/Callank21/Freelancing-Gig-App'}>
-                 <i className='fa fa-github'></i>
+                 <i className='fab fa-github fa'></i>
 
                </a>
              </li>
              <li>
                <a href={props.data ? props.data.twitter : '/'}>
-                 <i className='fa fa-twitter'></i>
+                 <i className='fab fa-linkedin fa'></i>
                </a>
              </li>
              <li>
                <a href={props.data ? props.data.youtube : '/'}>
-                 <i className='fa fa-youtube'></i>
+                 <i className='fab fa-youtube fa'></i>
                </a>
              </li>
            </ul>
