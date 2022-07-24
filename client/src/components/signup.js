@@ -17,6 +17,16 @@ export default function Signup() {
                     <button>Sign Up</button>
 		        </form>
 	        </div>
+
+	        <div class="overlay-container">
+		        <div class="overlay">
+			        <div class="overlay-panel overlay-right">
+				        <h1 className="logz">Welcome Back!</h1>
+				        <p className="ppp">Enter your personal details and start your journey!!</p>
+			        </div>
+		        </div>
+	        </div>
+            
         </div>
     </section>
     
