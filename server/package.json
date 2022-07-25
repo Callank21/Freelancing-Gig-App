@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "watch": "nodemon",
     "seed": "node seeders/seeds.js"
   },
