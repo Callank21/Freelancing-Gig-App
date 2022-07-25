@@ -2,12 +2,12 @@ import { Link } from 'react-router-dom';
 
 function Navigation() {
   return [
-    <nav id="menu" className="navbar">
-      <Link key="banner" to="/">
+    <nav key="nav" id="menu" className="navbar">
+      <Link to="/">
         <div className="navbar-header">
-          <a className="navbar-brand" href="#/">
+          <div className="navbar-brand">
             Freelancr<span className="dot">.</span>
-          </a>
+          </div>
         </div>
       </Link>
 
@@ -15,25 +15,23 @@ function Navigation() {
         <div>
           <ul className="nav">
             <Link to="/developers">
-              <li>
-                <a href="#developers">DEVELOPERS</a>
+              <li key="developers" className="nav-p">
+                DEVELOPERS
               </li>
             </Link>
             <Link to="/login">
-              <li>
-                <a href="#about">LOGIN</a>
+              <li key="login" className="nav-p">
+                LOGIN
               </li>
             </Link>
             <Link to="/signup">
-              <li>
-                <a href="#services">SIGNUP</a>
+              <li key="signup" className="nav-p">
+                SIGNUP
               </li>
             </Link>
             <Link to="/settings">
-              <li>
-                <a href="#/Settings">
-                  <i className="fa-solid fa-cog "></i>
-                </a>
+              <li key="settings" className="nav-p">
+                <i className="fa-solid fa-cog "></i>
               </li>
             </Link>
           </ul>

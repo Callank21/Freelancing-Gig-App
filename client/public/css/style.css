@@ -1,22 +1,28 @@
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
-  background: #abbaab;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+  background: #abbaab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #abbaab
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #abbaab
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 h2 {
   text-transform: uppercase;
@@ -90,33 +96,30 @@ span.back {
   background-color: #5ca9fb;
 }
 
-
-  h2.h2z {
-    text-transform: uppercase;
-    margin: 0 0 20px;
-    font-weight: 800;
-    font-size: 28px;
-    text-transform: uppercase;
-    margin: 0 0 20px;
-    font-weight: 800;
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: #5ca9fb;
-
-  }
+h2.h2z {
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  font-weight: 800;
+  font-size: 28px;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  font-weight: 800;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #5ca9fb;
+}
 
 .mainz-content {
   height: 20%;
 }
 .save-settings:hover {
-    background-color: #5ca9fb;
+  background-color: #5ca9fb;
 }
 
 .close-account:hover {
   background-color: red;
-
 }
 
 #btn {
@@ -124,7 +127,7 @@ span.back {
   text-transform: uppercase;
   padding: 5px 10px;
   margin: 0px;
-  border: 1px solid rgba(0, 0, 0, .12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 5px;
 }
 #btn:hover {
@@ -154,12 +157,11 @@ span.back {
 
 .mainz-container {
   background: #fff;
-  border: 1px solid rgba(0, 0, 0, .12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 5px;
   padding: 25px 30px;
   margin-bottom: 15px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 #formzz {
@@ -179,7 +181,7 @@ select {
   margin: 0;
   padding: 10px 8px;
   box-sizing: border-box;
-  border: 1px solid rgba(0, 0, 0, .12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
@@ -213,10 +215,9 @@ select:focus {
 
 .dot {
   color: #6372ff;
-
 }
-a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
   font-size: 34px;
   font-weight: 700;
   color: #333;
@@ -242,7 +243,7 @@ nav ul li {
   float: left;
   position: relative;
 }
-nav ul li a {
+.nav-p {
   display: block;
   padding: 0 20px;
   line-height: 70px;
@@ -256,7 +257,7 @@ nav ul li a:hover {
 
 nav ul li a:not(:only-child):after {
   padding-left: 4px;
-  content: " ▾";
+  content: ' ▾';
 }
 nav ul li ul li {
   min-width: 190px;
@@ -279,7 +280,7 @@ nav ul li ul li a {
   nav ul li {
     float: none;
   }
-  
+
   nav ul li a {
     padding: 15px;
     line-height: 20px;
@@ -309,7 +310,7 @@ nav ul li ul li a {
   background: #463f3f;
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   transition: all 300ms ease-in-out;
 }
 #nav-toggle span:before {
@@ -350,130 +351,127 @@ nav ul li ul li a {
 
 /* -------- Login/SignUp Section -------- */
 .formz {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	font-family: 'Montserrat', sans-serif;
-	height: 100vh;
-	margin: -20px 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  margin: -20px 0 50px;
 }
 
 .log {
-	font-weight: bold;
-	margin: 0;
+  font-weight: bold;
+  margin: 0;
 }
 .logz {
-	font-weight: bold;
-	margin: 0;
+  font-weight: bold;
+  margin: 0;
   padding-left: 40px;
 }
 .logg {
-	text-align: center;
+  text-align: center;
 }
 
 .ppp {
-	font-size: 14px;
-	font-weight: 100;
-	line-height: 20px;
-	letter-spacing: 0.5px;
-	margin: 20px 0 30px;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
   padding-left: 50px;
 }
 
 #spans {
-	font-size: 12px;
+  font-size: 12px;
 }
 
 .forgot-password {
-	color: #333;
-	font-size: 14px;
-	text-decoration: none;
-	margin: 15px 0;
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
 }
 
 .buttonz {
-	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
-	color: #FFFFFF;
-	font-size: 12px;
-	font-weight: bold;
-	padding: 12px 45px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	transition: transform 80ms ease-in;
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
 }
 
 .buttonz:active {
-	transform: scale(0.95);
+  transform: scale(0.95);
 }
 
 .buttonz:focus {
-	outline: none;
+  outline: none;
 }
 
 .buttonz.ghost {
-	background-color: transparent;
-	border-color: #FFFFFF;
+  background-color: transparent;
+  border-color: #ffffff;
 }
 
 #login {
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);	
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	padding: 0 50px;
-	height: 100%;
-	text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
 }
 
 input {
-	background-color: #eee;
-	border: none;
-	padding: 12px 15px;
-	margin: 8px 0;
-	width: 100%;
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
 }
 
 .containerz {
-	background-color: #fff;
-	border-radius: 10px;
-  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-			0 10px 10px rgba(0,0,0,0.22);
-	position: relative;
-	overflow: hidden;
-	width: 768px;
-	max-width: 100%;
-	min-height: 480px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px;
 }
 
 .form-containerz {
-	position: absolute;
-	top: 0;
-	height: 100%;
-	transition: all 0.6s ease-in-out;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
 }
 
 .sign-in-containerz {
-	left: 0;
-	width: 50%;
-	z-index: 2;
+  left: 0;
+  width: 50%;
+  z-index: 2;
 }
 
 .containerz.right-panel-active .sign-in-containerz {
-	transform: translateX(100%);
+  transform: translateX(100%);
 }
 
 .sign-up-containerz {
-	left: 0;
-	width: 50%;
-	opacity: 0;
-	z-index: 1;
+  left: 0;
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
 }
-
-
 
 /* .overlay {
 	background: #FF416C;
@@ -491,33 +489,29 @@ input {
 	transition: transform 0.6s ease-in-out;
 } */
 
-
 .overlay-panel {
-	position: absolute;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	padding: 0 40px;
-	text-align: center;
-	top: 0;
-	height: 100%;
-	width: 50%;
-	transform: translateX(0);
-	transition: transform 0.6s ease-in-out;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
 }
 
-
-
 .overlay-right {
-	right: 0;
-	transform: translateX(0);
+  right: 0;
+  transform: translateX(0);
 }
 
 .containerz.right-panel-active .overlay-right {
-	transform: translateX(20%);
+  transform: translateX(20%);
 }
-
 
 /*------------- Header Section --------- */
 
@@ -536,7 +530,7 @@ input {
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #fff;
   font-size: 82px;
   font-weight: 700;
@@ -568,7 +562,7 @@ header .intro-text {
 
 /*-------- Developers Section ------- */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 section {
   width: 100%;
@@ -583,7 +577,7 @@ h2 {
   margin: 50px 0 20px 0;
   font-weight: 800;
   font-size: 40px;
-  color:  Black;
+  color: Black;
   width: 100%;
 }
 
@@ -615,7 +609,6 @@ h2 {
   align-items: center;
 }
 
-
 /* ------------ Contact Section --------- */
 
 #contact {
@@ -637,7 +630,7 @@ h2 {
 }
 #contact .section-title h2::after {
   position: absolute;
-  content: "";
+  content: '';
   background: rgba(255, 255, 255, 0.3);
   height: 4px;
   width: 60px;

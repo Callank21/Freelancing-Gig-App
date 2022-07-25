@@ -9,6 +9,7 @@ import Developers from './components/Developers';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 // import JsonData from "./data/data.json";
 import './App.css';
+import CategoryPage from './components/pages/CategoryPage';
 
 function App() {
   // const [currentPage, handlePageChange] = useState(' ');
@@ -33,6 +34,31 @@ function App() {
     <div>
       <Router>
         <Header />
+        {/* <div className="App container-app-grid">
+          <CategoryPage
+            icon="👧"
+            name="Stephanie"
+            devType=" Full Stack Developer "
+            education="BA in Child Development, Certification in Web Development"
+            workHistory="RUSD, Amazon, Web Development "
+            description="From Ed to Tech"
+            buttonMessage="Connect with Developer"
+            wage="$40"
+            linked=" "
+          />
+          <CategoryPage
+            icon="🧔"
+            name="Watson"
+            devType=" Full Stack Developer "
+            education="BA in Computer Science"
+            workHistory=""
+            description="From Ed to Tech"
+            buttonMessage="Connect with Developer"
+            wage="$40"
+            linked=" "
+          />
+        </div> */}
+
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />

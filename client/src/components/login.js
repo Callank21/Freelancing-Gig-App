@@ -2,8 +2,8 @@ export default function Login() {
   return (
     <section>
       <section className="formz">
-        <div class="containerz" id="containerz">
-          <div class="form-containerz sign-in-containerz">
+        <div className="containerz" id="containerz">
+          <div className="form-containerz sign-in-containerz">
             <form action="#" id="login">
               <h1 className="log">Sign In</h1>
 
@@ -15,9 +15,9 @@ export default function Login() {
               <button className="buttonz">Sign In</button>
             </form>
           </div>
-          <div class="overlay-container">
-            <div class="overlay">
-              <div class="overlay-panel overlay-right">
+          <div className="overlay-container">
+            <div className="overlay">
+              <div className="overlay-panel overlay-right">
                 <h1 className="logz">Welcome Back!</h1>
                 <p className="ppp">
                   Enter your personal details and continue your journey!
