@@ -1,8 +1,11 @@
-import { useState } from 'react';
-import HomePage from './components/homePage';
-import Login from './components/login';
-import Settings from './components/settingsPage';
-import Signup from './components/signup';
+// import { useState } from 'react';
+import HomePage from './components/HomePage';
+import Login from './components/Login';
+import Settings from './components/SettingsPage';
+import Signup from './components/Signup';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Developers from './components/Developers';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 // import JsonData from "./data/data.json";
 import './App.css';
@@ -28,8 +31,21 @@ function App() {
 
   return (
     <div>
-      <HomePage currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      <Router>
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/developers" element={<Developers />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/settings" element={<Settings />} />
+          </Routes>
+        </main>
+      </Router>
+      <Footer />
+      {/* <HomePage currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()} */}
     </div>
   );
 }
