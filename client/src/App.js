@@ -1,28 +1,31 @@
-// import logo from './logo.svg';
 import { useState } from 'react';
 import HomePage from './components/homePage';
-// import Login from "./components/login";
-// import Settings from "./components/settingsPage";
-// import Signup from "./components/signup";
+import Login from './components/login';
+import Settings from './components/settingsPage';
+import Signup from './components/signup';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 // import JsonData from "./data/data.json";
 import './App.css';
 
 function App() {
-  const [currentPage, handlePageChange] = useState(' ');
+  // const [currentPage, handlePageChange] = useState(' ');
 
-  const renderPage = () => {
-    switch (currentPage) {
-      case 'Home Page':
-        return <HomePage />;
-      // case "Login":
-      //   return <Login />;
-      // case "Signup":
-      //   return <Signup />;
-      // case "Settings":
-      //   return <Settings />;
-      default:
-    }
-  };
+  // const renderPage = () => {
+  //   switch (currentPage) {
+  //     case 'Home Page':
+  //       return <HomePage />;
+  //     case 'Login':
+  //       return <Login />;
+  //     case 'Signup':
+  //       return <Signup />;
+  //     case 'Settings':
+  //       return <Settings />;
+  //     default:
+  //   }
+  // };
+
+  // create routes for the components
+
   return (
     <div>
       <HomePage currentPage={currentPage} handlePageChange={handlePageChange} />
@@ -31,7 +34,7 @@ function App() {
   );
 }
 
-// CategoryPage created by Steph
+// CategoryPage created by Steph, hasn't been merged yet
 
 // import './App.css';
 // import CategoryPage from './components/pages/CategoryPage';
