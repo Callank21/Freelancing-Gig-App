@@ -1,12 +1,9 @@
 // import logo from './logo.svg';
 import { useState,  } from "react";
-// import  HomePage  from "./components/homePage";
-// import Settings from "./components/settingsPage";
+import  HomePage  from "./components/homePage";
 // import Login from "./components/login";
-import Signup from "./components/signup";
-// import { Header } from "./components/header";
-// import { Developers } from "./components/developers";
-// import { Contact } from "./components/contact";
+// import Settings from "./components/settingsPage";
+// import Signup from "./components/signup";
 // import JsonData from "./data/data.json";
 import "./App.css";
 
@@ -19,15 +16,19 @@ function App() {
   const renderPage = () => {
     switch(currentPage) {
       case "Home Page":
-        return <Signup  />;
+        return <HomePage  />;
+      // case "Login":
+      //   return <Login />;
       // case "Signup":
       //   return <Signup />;
+      // case "Settings":
+      //   return <Settings />;
       default: 
     }
   };
   return (
     <div>
-      <Signup currentPage={currentPage} handlePageChange={handlePageChange}/>
+      <HomePage currentPage={currentPage} handlePageChange={handlePageChange}/>
       {renderPage()}
       
     </div>   
