@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import { useState,  } from "react";
+import  HomePage  from "./components/homePage";
+// import Login from "./components/login";
+// import Settings from "./components/settingsPage";
+// import Signup from "./components/signup";
+// import JsonData from "./data/data.json";
+import "./App.css";
+
+
+
 
 function App() {
+  const [currentPage, handlePageChange] = useState(" ");
+
+  const renderPage = () => {
+    switch(currentPage) {
+      case "Home Page":
+        return <HomePage  />;
+      // case "Login":
+      //   return <Login />;
+      // case "Signup":
+      //   return <Signup />;
+      // case "Settings":
+      //   return <Settings />;
+      default: 
+    }
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      <HomePage currentPage={currentPage} handlePageChange={handlePageChange}/>
+      {renderPage()}
+      
+    </div>   
   );
 }
 
+
+
 export default App;
+
