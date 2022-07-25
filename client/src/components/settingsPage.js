@@ -1,6 +1,40 @@
 export default function Settings() {
     
     return (
+        <section>
+
+        <section>
+        <nav id='menu' className='navbar'>
+    
+          <div className='navbar-header'>             
+            <a className='navbar-brand' href='#/'>Freelancr<span className='dot'>.</span></a>
+          </div>
+            
+          <div className='containerr'>
+    
+         
+            <div>
+              <ul className='nav'>
+                <li>
+                  <a href='#developers'>DEVELOPERS</a>
+                </li>
+                <li>
+                  <a href='#about'>LOGIN</a>
+                </li>
+                <li>
+                  <a href='#services'>SIGNUP</a>
+                </li>
+                <li>
+                <a href="#/Settings"><i className="fa-solid fa-cog "></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        </section>
+
+            
+
         <div class="body-root">
         <div class="body-section">
           <div class="body-contentz">
@@ -60,5 +94,7 @@ export default function Settings() {
         </div>
       </div>
     </div>
+    </section>
+
  )
 }

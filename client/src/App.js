@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import { useState,  } from "react";
-import  HomePage  from "./components/homePage";
-// import Settings from "./components/settingsPage";
+// import  HomePage  from "./components/homePage";
+import Settings from "./components/settingsPage";
 // import Login from "./components/login";
 // import Signup from "./components/signup";
 // import { Header } from "./components/header";
@@ -19,7 +19,7 @@ function App() {
   const renderPage = () => {
     switch(currentPage) {
       case "Home Page":
-        return <HomePage  />;
+        return <Settings  />;
       // case "Signup":
       //   return <Signup />;
       default: 
@@ -27,7 +27,7 @@ function App() {
   };
   return (
     <div>
-      <HomePage currentPage={currentPage} handlePageChange={handlePageChange}/>
+      <Settings currentPage={currentPage} handlePageChange={handlePageChange}/>
       {renderPage()}
       
     </div>   
