@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Developers from './components/pages/Developers';
 import NotFound from './components/pages/NotFound';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import JsonData from "./data/data.json";
 import './App.css';
 // import CategoryPage from './components/pages/CategoryPage';

@@ -35,17 +35,10 @@ const typeDefs = gql`
     profile(_id: ID!): Profile
   }
 
-  # Input
-  input createUserInput {
-    username: String!
-    email: String!
-    password: String!
-  }
-
   # Mutations
   type Mutation {
     login(email: String!, password: String!): Auth
-    createUser(input: createUserInput): Auth
+    createUser(username: String!, email: String!, password: String!): Auth
     createProfile(
       name: String!
       devType: String!
