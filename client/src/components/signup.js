@@ -2,6 +2,37 @@ export default function Signup() {
 
     return (
 
+		<section>
+
+		<section>
+	  <nav id='menu' className='navbar'>
+  
+		<div className='navbar-header'>             
+		  <a className='navbar-brand' href='#/'>Freelancr<span className='dot'>.</span></a>
+		</div>
+		  
+		<div className='containerr'>
+  
+	   
+		  <div>
+			<ul className='nav'>
+			  <li>
+				<a href='#developers'>DEVELOPERS</a>
+			  </li>
+			  <li>
+				<a href='#about'>LOGIN</a>
+			  </li>
+			  <li>
+			  <a href="#/Settings"><i className="fa-solid fa-cog "></i></a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+	  </section>
+  
+
+
 <section className="formz">
         <div class="containerz" id="containerz">
 
@@ -25,5 +56,7 @@ export default function Signup() {
 	</div>
 </div>
 </section>
+</section>
+
 	)
 }

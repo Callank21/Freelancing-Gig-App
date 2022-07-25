@@ -1,12 +1,41 @@
 export default function Login() {
     
     return (
+<section>
+		<section>
+		<nav id='menu' className='navbar'>
+	
+		  <div className='navbar-header'>             
+			<a className='navbar-brand' href='#/'>Freelancr<span className='dot'>.</span></a>
+		  </div>
+			
+		  <div className='containerr'>
+	
+		 
+			<div>
+			  <ul className='nav'>
+				<li>
+				  <a href='#developers'>DEVELOPERS</a>
+				</li>
+				<li>
+				  <a href='#about'>LOGIN</a>
+				</li>
+				<li>
+				<a href="#/Settings"><i className="fa-solid fa-cog "></i></a>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+		</section>
+
+
         <section className="formz">
         <div class="containerz" id="containerz">
 
 	<div class="form-containerz sign-in-containerz">
 		<form action="#" id="login">
-			<h1 className="log">Sign in</h1>
+			<h1 className="log">Sign In</h1>
 			
 			<input type="email" placeholder="Email" />
 			<input type="password" placeholder="Password" />
@@ -24,7 +53,7 @@ export default function Login() {
 	</div>
 </div>
 </section>
-
+</section>
          )
        }
 
