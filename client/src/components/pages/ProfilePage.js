@@ -1,17 +1,23 @@
 import React from 'react';
-import { Navigate, useParams } from 'react-router-dom';
-import Auth from '../utils/auth';
+// import { Navigate, useParams } from 'react-router-dom';
+// import { useQuery, useMutation } from '@apollo/client';
+// import Auth from '../../utils/auth';
 
 export default function ProfilePage(props) {
-  if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
-    return <Navigation to="/profile" />;
-  }
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-  if (!User?.username) {
-    return <h4>Please login or sign up to view your profile!</h4>;
-  }
+  //   const { username: userParam } = useParams();
+
+  //   const { loading, data } = useQuery();
+
+  //   const user = data?.me || data?.user || {};
+  //   if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
+  //     return <Navigate to="/profile" />;
+  //   }
+  //   if (loading) {
+  //     return <div>Loading...</div>;
+  //   }
+  //   if (!user?.username) {
+  //     return <h4>Please login or sign up to view your profile!</h4>;
+  //   }
   return (
     <div className="container">
       <div className="card">

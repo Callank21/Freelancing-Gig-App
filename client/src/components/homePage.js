@@ -1,4 +1,4 @@
-import Developers from './Developers';
+import Developers from './pages/Developers';
 
 const HomePage = (props) => {
   return (
