@@ -1,25 +1,27 @@
 export default function Settings() {
   return (
     <section>
-      <div class="body-root">
-        <div class="body-section">
-          <div class="body-contentz">
-            <div class="mainz">
-              <div class="mainz-content">
-                <div class="mainz-container account-settings">
+      <div className="body-root">
+        <div className="body-section">
+          <div className="body-contentz">
+            <div className="mainz">
+              <div className="mainz-content">
+                <div className="mainz-container account-settings">
                   <h2 className="h2z">Account Settings</h2>
-                  <div class="settings-form account">
+                  <div className="settings-form account">
                     <section>
-                      <form class="account-settings-form" id="formzz">
-                        <div class="form-field field-1 short">
-                          <label for="platform-name">My Email Address:</label>
+                      <form className="account-settings-form" id="formzz">
+                        <div className="form-field field-1 short">
+                          <label htmlFor="platform-name">
+                            My Email Address:
+                          </label>
                           <span> (Users Email) </span>
                         </div>
 
-                        <div class="settings-actions">
-                          <div class="button-container">
+                        <div className="settings-actions">
+                          <div className="button-container">
                             <button
-                              class="close-account"
+                              className="close-account"
                               id="btn"
                               type="submit"
                             >
@@ -32,13 +34,13 @@ export default function Settings() {
                   </div>
                 </div>
 
-                <div class="mainz-container account-settings">
+                <div className="mainz-container account-settings">
                   <h2 className="h2z">Changle Email & Password</h2>
-                  <div class="settings-form account">
+                  <div className="settings-form account">
                     <section>
-                      <form class="account-settings-form" id="formzz">
-                        <div class="form-field field-1 short">
-                          <label id="labelz" for="platform-name">
+                      <form className="account-settings-form" id="formzz">
+                        <div className="form-field field-1 short">
+                          <label id="labelz" htmlFor="platform-name">
                             Email Address
                           </label>
                           <input
@@ -48,8 +50,8 @@ export default function Settings() {
                           />
                         </div>
 
-                        <div class="form-field field-4 short">
-                          <label id="labelz" for="contact-email">
+                        <div className="form-field field-4 short">
+                          <label id="labelz" htmlFor="contact-email">
                             Password{' '}
                           </label>
                           <input
@@ -58,10 +60,10 @@ export default function Settings() {
                             name="contact-email"
                           />
                         </div>
-                        <div class="settings-actions">
-                          <div class="button-container">
+                        <div className="settings-actions">
+                          <div className="button-container">
                             <button
-                              class="save-settings"
+                              className="save-settings"
                               id="btn"
                               type="submit"
                             >
