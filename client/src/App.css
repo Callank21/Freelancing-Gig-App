@@ -53,3 +53,126 @@
     width: 110%;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.card {
+  background-color: #deeae8;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  padding: 1.3rem;
+  border-radius: 8px;
+  border: 4px solid #072227;
+  box-shadow: #7fadb6a1 9px 10px 3px 0px;
+  transition: 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+.card:hover {
+  box-shadow: #7fadb6a1 -9px -10px 3px 0px;
+  transition: 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+.icon > span {
+  font-size: 2rem;
+  border: 1px solid rgb(194, 194, 194);
+  background: #eef5f7;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.person {
+  color: #072227;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.2px;
+}
+
+.devType {
+  font-size: 1.4rem;
+  color: lightslategray;
+  margin-bottom: 1 rem;
+}
+.education {
+  font-size: 1.4rem;
+  color: lightslategray;
+  margin-bottom: 1 rem;
+}
+
+.stats {
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+.stats > span {
+  margin-right: 1rem;
+  font-size: 1rem;
+  color: #425c61;
+}
+button {
+  padding: 0.8rem;
+  width: 100%;
+  margin-top: 1.1rem;
+  border: none;
+  background-color: #072227;
+  color: #fff;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+button:hover {
+  background-color: #2b4246;
+  transform: scale(0.9);
+  transition-duration: 0.5s;
+}
+
+.figures {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-app-grid {
+  display: grid;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #cbeaef;
+}
+
+/* @media only screen and (max-width: 1024px) {
+    .container-app-grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        grid-template-rows: repeat(1, 1fr);  
+    }
+} */
+
+@media only screen and (max-width: 767px) {
+  .container-app-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* grid-template-rows: repeat(1, 1fr); */
+  }
+}
