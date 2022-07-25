@@ -37,6 +37,8 @@
   }
 }
 
+
+/* CategoryPage Section Starts */
 * {
 	margin: 0;
 	padding: 0;
@@ -52,7 +54,7 @@
 }
 
 .card {
-	background-color: #deeae8;
+	background-color: white;
 	width: 90%;
 	display: flex;
 	flex-direction: column;
@@ -67,7 +69,23 @@
 	box-shadow: #7fadb6a1 -9px -10px 3px 0px;
 	transition: 0.3s cubic-bezier(0, 0, 0.2, 1);
 }
-.icon > span {
+
+.h3 {
+	font-weight: bold;
+	color: lightslategray;
+	font-size: 1.1rem;
+	letter-spacing: 0.2rem;
+}
+
+.wage  {
+	font-size: 1.1rem;
+	font-weight: bold;
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+}
+
+.image > span {
 	font-size: 2rem;
 	border: 1px solid rgb(194, 194, 194);
 	background: #eef5f7;
@@ -78,7 +96,7 @@
 .person {
 	color: #072227;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 	gap: 1rem;
 	font-size: 1.4rem;
@@ -87,26 +105,30 @@
 
 .devType {
 	font-size: 1.4rem;
-	color: lightslategray;
-	margin-bottom: 1 rem;
-}
-.education{
-	font-size: 1.4rem;
-	color: lightslategray;
+	font-weight: bold;
+	color: rgb(29, 102, 174);
 	margin-bottom: 1 rem;
 }
 
-.stats {
-	font-size: 1.1rem;
+.description {
+	font-size: 1rem;
 	font-weight: bold;
 	display: flex;
 	flex-direction: column;
 }
-.stats > span {
-	margin-right: 1rem;
+
+.education{
 	font-size: 1rem;
-	color: #425c61;
+	color: rgb(29, 46, 63);
+	margin-bottom: 1 rem;
 }
+
+.work-history {
+	font-size: 1rem;
+	color: lightslategray;
+	margin-bottom: 1 rem;
+}
+
 button {
 	padding: 0.8rem;
 	width: 100%;
@@ -127,10 +149,10 @@ button:hover {
 	transition-duration: 0.5s;
 }
 
-.figures {
+/* .figures {
 	display: flex;
 	justify-content: space-between;
-}
+} */
 
 .container-app-grid {
 	display: grid;
@@ -160,3 +182,5 @@ button:hover {
 		/* grid-template-rows: repeat(1, 1fr); */
 	}
 }
+
+/* CategoryPage Section Ends */
