@@ -36,7 +36,6 @@ h2 {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  justify-content: center;
 }
 h3 {
   font-size: 20px;
@@ -209,6 +208,10 @@ select:focus {
   font-size: 0.9em;
   height: 40px;
   padding: 5px 15px;
+}
+.justify-center {
+  display: flex;
+  justify-content: center;
 }
 
 /* ------- Navigation Section --------- */

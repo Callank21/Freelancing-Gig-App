@@ -6,7 +6,7 @@ const Footer = (props) => {
       <div id="contact">
         <div>
           <div className="section-title">
-            <h2>Get In Touch !</h2>
+            <h2 className="justify-center">Get In Touch !</h2>
           </div>
 
           <div className="social">
