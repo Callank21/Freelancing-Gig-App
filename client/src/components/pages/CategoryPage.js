@@ -3,10 +3,18 @@ import React from "react";
 // import { QUERY_DEV } from '../utils/queries';
 import ProfileCard from "./ProfileCard"
 
-const devList = useQuery(QUERY_DEV);
-console.log ( devList );
-
 export const CategoryPage = (props) => {
+	// function that deals with onclick
+	// onclick => ({
+		// get profile Id from a document.querySelector('key').value
+		// pass profile Id into find individual profile function returning an object
+		// return ProfilePage object with the data from the previous function passed in
+	// })
+
+
+	const devList = useQuery(QUERY_DEV);
+	console.log ( devList );
+
 	const getDevelopers = devList.map(profile => {
 		return (
 		<ProfileCard 
