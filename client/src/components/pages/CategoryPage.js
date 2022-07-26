@@ -7,6 +7,7 @@ const devList = useQuery(QUERY_DEV);
 console.log ( devList );
 
 export const CategoryPage = (props) => {
+	
 	const getDevelopers = devList.map(profile => {
 		return (
 		<ProfileCard 
@@ -21,6 +22,14 @@ export const CategoryPage = (props) => {
             <div className=" ">
 				{getDevelopers}
             </div>
+			<button className="btn"
+			onClick={e => {
+				this.onClick();
+          }}
+        >
+          Connect With Developer
+        </button>
+      </div>
         </div>
     )
 
