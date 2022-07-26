@@ -11,6 +11,7 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
+import UpdateUser from './UpdateUser';
 
 export default function Settings() {
   const [deleteUser] = useMutation(DELETE_USER);
@@ -106,48 +107,7 @@ export default function Settings() {
                     </section>
                   </div>
                 </div>
-
-                <div className="mainz-container account-settings">
-                  <h2 className="h2z">Changle Email & Password</h2>
-                  <div className="settings-form account">
-                    <section>
-                      <form className="account-settings-form" id="formzz">
-                        <div className="form-field field-1 short">
-                          <label id="labelz" htmlFor="platform-name">
-                            Email Address
-                          </label>
-                          <input
-                            id="platform-name inputz"
-                            type="text"
-                            name="platform-name"
-                          />
-                        </div>
-
-                        <div className="form-field field-4 short">
-                          <label id="labelz" htmlFor="contact-email">
-                            Password{' '}
-                          </label>
-                          <input
-                            id="contact-email inputz"
-                            type="text"
-                            name="contact-email"
-                          />
-                        </div>
-                        <div className="settings-actions">
-                          <div className="button-container">
-                            <button
-                              className="save-settings"
-                              id="btn"
-                              type="submit"
-                            >
-                              Save settings
-                            </button>
-                          </div>
-                        </div>
-                      </form>
-                    </section>
-                  </div>
-                </div>
+                <UpdateUser />
               </div>
             </div>
           </div>
