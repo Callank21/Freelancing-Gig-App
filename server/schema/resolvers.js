@@ -32,6 +32,10 @@ const resolvers = {
     profile: async (parent, { _id }) => {
       return Profile.findOne({ _id });
     },
+
+    developers: async (parent, { devType }) => {
+      return Profile.find({ devType: devType });
+    }
   },
 
   Mutation: {
