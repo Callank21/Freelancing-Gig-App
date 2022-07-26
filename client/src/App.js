@@ -1,21 +1,21 @@
 import './App.css';
-import { CategoryPage } from './components/pages/CategoryPage';
+import { ProfilePage } from './components/pages/ProfilePage';
 
 const App = () => {
 	return (
 		<div className="App container-app-grid">
-			<CategoryPage
+			<ProfilePage
 				image="👧"
 				name="Stephanie"
 				devType=" Full Stack Developer "
         education= "BA in Child Development, Certification in Web Development"
-				workHistory="RUSD Amazon, Web Development "
+				workHistory="RUSD, Amazon, Web Development"
 				description="From Ed to Tech"
 				buttonMessage="Connect with Developer"
 				wage="$40"
 				linked=" "
 			/>
-			<CategoryPage
+			<ProfilePage
 				image="🧔"
 				name="Watson"
 				devType=" Full Stack Developer "
@@ -26,7 +26,7 @@ const App = () => {
 				wage="$40"
 				linked=" "
 			/>
-			<CategoryPage
+			<ProfilePage
 				image="🚀"
         name="John"
 				devType=" Full Stack Developer "

@@ -1,41 +1,27 @@
 import React from "react";
+// import { useQuery, useMutation } from '@apollo/client';
+// import { QUERY_DEV } from '../utils/queries';
+import ProfileCard from "./ProfileCard"
+
+const devList = useQuery(QUERY_DEV);
+console.log ( devList );
 
 export const CategoryPage = (props) => {
-  return (
-  <div className="container">
-	<div className="card">
-		<div className="wage">
-			<span>{props.wage}</span>
-			<h3>/HR</h3>
-		</div>
-		<div className="person">
-			<div className="image">
-				<span>{props.image}</span>
-			</div>
-			<div className="name">
-				<h2>{props.name}</h2>
-			</div>
-		</div>
-		<div className="devType">
-			<p>{props.devType}</p>
-		</div>
-		<div className="description">
-			<h3> DESCRIPTION</h3>
-			<span>{props.description}</span>
-		</div>
-        <div className="education">
-			<h3>EDUCATION</h3>
-			<p>{props.education}</p>
-		</div>
-		<div className="work history">
-			<h3>WORK HISTORY</h3>
-			<ul>{props.workHistory}</ul>
-		</div>
-		<div className="btn">
-			<a href={props.linked} target="_blank" rel="noreferrer">
-				<button>{props.buttonMessage}</button>
-			</a>
-		</div>
-	</div>
-</div>
-);};
+	const getDevelopers = devList.map(profile => {
+		return (
+		<ProfileCard 
+		key = {profile._id}
+		{...profile}
+		/>
+		)
+	})
+	return (
+        <div>
+            <p className="categoryHeader">Developers</p>
+            <div className=" ">
+				{getDevelopers}
+            </div>
+        </div>
+    )
+
+};
