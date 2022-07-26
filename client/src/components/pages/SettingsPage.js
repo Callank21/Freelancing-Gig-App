@@ -2,6 +2,8 @@ import { useQuery, useMutation } from '@apollo/client';
 import { DELETE_USER } from '../../utils/mutations';
 import { QUERY_ME } from '../../utils/queries';
 import Auth from '../../utils/auth';
+import AlertDialog from '../Dialog';
+import { render } from 'react-dom';
 
 export default function Settings() {
   const [deleteUser] = useMutation(DELETE_USER);
@@ -13,21 +15,23 @@ export default function Settings() {
   const handleDeleteFormSubmit = async (event) => {
     event.preventDefault();
 
+    console.log('yes');
+
     const token = Auth.loggedIn() ? Auth.getToken() && Auth.getProfile() : null;
 
     if (!token) {
       return false;
     }
 
-    try {
-      await deleteUser({
-        variables: { id: data.me._id },
-      });
+    // try {
+    //   await deleteUser({
+    //     variables: { id: data.me._id },
+    //   });
 
-      Auth.logout();
-    } catch (e) {
-      console.error(e);
-    }
+    //   Auth.logout();
+    // } catch (e) {
+    //   console.error(e);
+    // }
   };
 
   return (
@@ -56,6 +60,7 @@ export default function Settings() {
                               id="btn"
                               onClick={handleDeleteFormSubmit}
                             >
+                              <AlertDialog />
                               Close My Account
                             </button>
                           </div>
