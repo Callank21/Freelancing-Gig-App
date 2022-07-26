@@ -73,12 +73,12 @@ const resolvers = {
       }
       throw new AuthenticationError();
     },
-    deleteUser: async (parent, { username }, context) => {
+    deleteUser: async (parent, args, context) => {
       if (context.user) {
         const userData = await User.deleteOne({
-          _id: context.user._id,
+          _id: args._id,
         });
-        await Profile.deleteMany({ username: username });
+        await Profile.deleteMany({ username: context.user.username });
         return userData;
       }
       throw new AuthenticationError('No user found !');

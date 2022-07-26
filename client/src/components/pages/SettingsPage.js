@@ -1,4 +1,46 @@
+// import { useState } from 'react';
+import { useQuery, useMutation } from '@apollo/client';
+import { DELETE_USER } from '../../utils/mutations';
+import { QUERY_ME } from '../../utils/queries';
+import Auth from '../../utils/auth';
+
 export default function Settings() {
+  // const [, { error }] = useMutation(UPDATE_USER);
+  const [deleteUser] = useMutation(DELETE_USER);
+  const { data } = useQuery(QUERY_ME);
+  // update state based on form input changes
+  // const handleChange = (event) => {
+  //   const { name, value } = event.target;
+
+  //   setFormState({
+  //     ...formState,
+  //     [name]: value,
+  //   });
+  // };
+
+  // submit delete form
+  const handleDeleteFormSubmit = async (event) => {
+    event.preventDefault();
+
+    const token = Auth.loggedIn() ? Auth.getToken() && Auth.getProfile() : null;
+
+    console.log(data.me._id);
+
+    if (!token) {
+      return false;
+    }
+
+    try {
+      await deleteUser({
+        variables: { id: data.me._id },
+      });
+
+      Auth.logout();
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
   return (
     <section>
       <div className="body-root">
@@ -23,7 +65,7 @@ export default function Settings() {
                             <button
                               className="close-account"
                               id="btn"
-                              type="submit"
+                              onClick={handleDeleteFormSubmit}
                             >
                               Close My Account
                             </button>

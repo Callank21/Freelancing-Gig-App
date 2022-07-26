@@ -48,7 +48,7 @@ const typeDefs = gql`
       education: [String]
       hours: Int
     ): Profile
-    deleteUser(username: String!, email: String!, password: String!): User
+    deleteUser(_id: ID!): User
     deleteProfile(_id: ID!): Profile
     updateUser(username: String, email: String, password: String): User
     updateProfile(

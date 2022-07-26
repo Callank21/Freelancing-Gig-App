@@ -46,10 +46,10 @@ function App() {
         <Router>
           <Header />
           <main>
-            {/* <ProfilePage /> */}
             {/* <CategoryPage /> */}
             <Routes>
               <Route path="/" element={<HomePage />} />
+              {/* <Route path="/profile" element={<ProfilePage />} /> */}
               <Route path="/developers" element={<Developers />} />
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
