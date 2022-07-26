@@ -1,30 +1,19 @@
-// import { useState } from 'react';
 import { useQuery, useMutation } from '@apollo/client';
 import { DELETE_USER } from '../../utils/mutations';
 import { QUERY_ME } from '../../utils/queries';
 import Auth from '../../utils/auth';
 
 export default function Settings() {
-  // const [, { error }] = useMutation(UPDATE_USER);
   const [deleteUser] = useMutation(DELETE_USER);
   const { data } = useQuery(QUERY_ME);
-  // update state based on form input changes
-  // const handleChange = (event) => {
-  //   const { name, value } = event.target;
 
-  //   setFormState({
-  //     ...formState,
-  //     [name]: value,
-  //   });
-  // };
+  // const confirm = window.confirm('Are you sure to delete your account ?');
+  // alert(confirm);
 
-  // submit delete form
   const handleDeleteFormSubmit = async (event) => {
     event.preventDefault();
 
     const token = Auth.loggedIn() ? Auth.getToken() && Auth.getProfile() : null;
-
-    console.log(data.me._id);
 
     if (!token) {
       return false;
@@ -57,7 +46,7 @@ export default function Settings() {
                           <label htmlFor="platform-name">
                             My Email Address:
                           </label>
-                          <span> (Users Email) </span>
+                          <span> {data?.me.email} </span>
                         </div>
 
                         <div className="settings-actions">
