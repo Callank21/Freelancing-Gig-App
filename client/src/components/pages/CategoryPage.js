@@ -1,7 +1,7 @@
 import React from "react";
-import { useQuery, useMutation } from '@apollo/client';
-import { QUERY_DEV } from '../utils/queries';
-import ProfilePage from "./ProfilePage"
+// import { useQuery, useMutation } from '@apollo/client';
+// import { QUERY_DEV } from '../utils/queries';
+import ProfileCard from "./ProfileCard"
 
 const devList = useQuery(QUERY_DEV);
 console.log ( devList );
@@ -9,7 +9,7 @@ console.log ( devList );
 export const CategoryPage = (props) => {
 	const getDevelopers = devList.map(profile => {
 		return (
-		<ProfilePage 
+		<ProfileCard 
 		key = {profile._id}
 		{...profile}
 		/>
