@@ -1,15 +1,18 @@
 import React from "react";
 import { useQuery, useMutation } from '@apollo/client';
 import { QUERY_DEV } from '../utils/queries';
-import { REMOVE_BOOK } from '../utils/mutations';
+import ProfilePage from "./ProfilePage"
 
-const devList = useQuery{QUERY_DEV};
-console.log ('devList');
+const devList = useQuery(QUERY_DEV);
+console.log ( devList );
 
 export const CategoryPage = (props) => {
-	const getDevelopers = devList.map(devType => {
+	const getDevelopers = devList.map(profile => {
 		return (
-		<ProfilePage />
+		<ProfilePage 
+		key = {profile._id}
+		{...profile}
+		/>
 		)
 	})
 	return (

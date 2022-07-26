@@ -21,4 +21,4 @@ const UserProfile = (props) => {
 		<h4> Please sign up or log in </h4>
 	  );
 	}
-	
+}
