@@ -13,8 +13,6 @@ export default function ProfilePage() {
 
   const profile = data?.profile || {};
 
-  console.log(profile);
-
   if (loading) {
     return <div>Loading...</div>;
   }
