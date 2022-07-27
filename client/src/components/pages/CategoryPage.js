@@ -16,10 +16,13 @@ const CategoryPage = (name) => {
   const [profCard, setProfCard] = useState([]);
   useEffect(() => {
     data && setProfCard(data.developers);
-    // data && setDevCard(data.devType);
+    data && console.log(data.developers);
   }, [data]);
 
   const card = profCard.map((item) => {
+	function truncate(str, n){
+		return (str.length > n) ? str.substr(0, n-1) + '...' : str;
+	  };
     return (
       <Link key={item._id} to={`/profile/${item._id}`}>
         <div className="card">
@@ -38,17 +41,17 @@ const CategoryPage = (name) => {
           <div className="devType">
             <p>{item.devType}</p>
           </div>
-          <div className="description">
+          {/* <div className="description">
             <h3> DESCRIPTION</h3>
             <span>{item.description}</span>
-          </div>
+          </div> */}
           <div className="education">
             <h3>EDUCATION</h3>
-            <p>{item.education}</p>
+            <ul>{item.education.map(element => <li>○ {truncate(element, 35)}</li>)}</ul>
           </div>
           <div className="work history">
             <h3>WORK HISTORY</h3>
-            <ul>{item.workHistory}</ul>
+            <ul>{item.workhistory.length} previous jobs</ul>
           </div>
         </div>
       </Link>

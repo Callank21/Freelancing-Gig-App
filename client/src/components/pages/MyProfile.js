@@ -54,11 +54,11 @@ export default function MyProfile() {
                   <div className="figures">
                     <div className="work history stats">
                       <h3>Work History </h3>
-                      <ul>{profile.workhistory}</ul>
+                      <ul>{profile.workhistory.map(element => <li>○ {element}</li>)}</ul><ul>{profile.workhistory}</ul>
                     </div>
                     <div className="education">
                       <h3> Education</h3>
-                      <p>{profile.education}</p>
+                      <ul>{profile.education.map(element => <li>○ {element}</li>)}</ul>
                     </div>
                     <div className="description stats">
                       <h3> Description</h3>
