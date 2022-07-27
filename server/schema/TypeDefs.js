@@ -34,6 +34,7 @@ const typeDefs = gql`
     profiles: [Profile]
     profile(_id: ID!): Profile
     developers(devType: String!): [Profile]
+    devTypes: [String]
   }
 
   # Mutations

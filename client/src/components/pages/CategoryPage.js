@@ -24,20 +24,21 @@ export const CategoryPage = (props) => {
 		)
 	})
 	return (
-		<div>
-            <p className="categoryHeader">Developers</p>
-            <div className=" ">
-				{getDevelopers}
-            </div>
-			<button className="btn"
-			onClick={e => {
-				this.onClick();
-          }}
-        >
-          Connect With Developer
-        </button>
-      </div>
-        </div>
+	// 	<div>
+    //         <p className="categoryHeader">Developers</p>
+    //         <div className=" ">
+	// 			{getDevelopers}
+    //         </div>
+	// 		<button className="btn"
+	// 		onClick={e => {
+	// 			this.onClick();
+    //       }}
+    //     >
+    //       Connect With Developer
+    //     </button>
+    //   </div>
+    //     </div>
+	<div>Hi</div>
     )
         // <div>
         //     <p className="categoryHeader">Developers</p>
@@ -45,7 +46,7 @@ export const CategoryPage = (props) => {
 		// 		{getDevelopers}
         //     </div>
         // </div>
-    )
+    // )
 
 };
 

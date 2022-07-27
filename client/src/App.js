@@ -51,6 +51,14 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/developers" element={<Developers />} />
+              {/*loggedIn! && 
+              <Route path="/login" element={<Login />} />
+              <Route path="/signup" element={<Signup />} />
+              */}
+              {/*loggedIn &&
+              <Route path="/myprofile" element={<myProfile />} />
+              <Route path="/settings" element={<Settings />} />
+              */}
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
               <Route path="/settings" element={<Settings />} />
