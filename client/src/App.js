@@ -3,6 +3,7 @@ import HomePage from './components/HomePage';
 import Login from './components/pages/Login';
 import Settings from './components/pages/SettingsPage';
 import Signup from './components/pages/Signup';
+import Profile from './components/pages/ProfilePage';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Developers from './components/pages/Developers';
@@ -58,6 +59,7 @@ function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
               <Route path="/settings" element={<Settings />} />
+              <Route path="/profile" element={<Profile />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
@@ -67,72 +69,5 @@ function App() {
     </ApolloProvider>
   );
 }
-
-// CategoryPage created by Steph, hasn't been merged yet
-
-// import './App.css';
-// import CategoryPage from './components/pages/CategoryPage';
-
-// const App = () => {
-// 	return (
-// 		<div className="App container-app-grid">
-// 			<CategoryPage
-// 				icon="👧"
-// 				name="Stephanie"
-// 				devType=" Full Stack Developer "
-//         education= "BA in Child Development, Certification in Web Development"
-// 				workHistory="RUSD, Amazon, Web Development "
-// 				description="From Ed to Tech"
-// 				buttonMessage="Connect with Developer"
-// 				wage="$40"
-// 				linked=" "
-// 			/>
-// 			<CategoryPage
-// 				icon="🧔"
-// 				name="Watson"
-// 				devType=" Full Stack Developer "
-//         education= "BA in Computer Science"
-// 				workHistory=""
-// 				description="From Ed to Tech"
-// 				buttonMessage="Connect with Developer"
-// 				wage="$40"
-// 				linked=" "
-// 			/>
-// 			<CategoryPage
-// 				icon="🚀"
-//         name="John"
-// 				devType=" Full Stack Developer "
-//         education= "Certification in Web Development"
-// 				workHistory="Rialto USD"
-// 				description="From Ed to Tech"
-// 				buttonMessage="Connect with Developer"
-// 				wage="$40"
-// 				linked=" "
-// 			/>
-//       <CategoryPage
-// 				icon="🚀"
-//         name="John"
-// 				devType=" Full Stack Developer "
-//         education= "Certification in Web Development"
-// 				workHistory="Rialto USD"
-// 				description="From Ed to Tech"
-// 				buttonMessage="Connect with Developer"
-// 				wage="$40"
-// 				linked=" "
-// 			/>
-//       <CategoryPage
-// 				icon="🚀"
-//         name="John"
-// 				devType=" Full Stack Developer "
-//         education= "Certification in Web Development"
-// 				workHistory="Rialto USD"
-// 				description="From Ed to Tech"
-// 				buttonMessage="Connect with Developer"
-// 				wage="$40"
-// 				linked=" "
-// 			/>
-// 		</div>
-// 	);
-// };
 
 export default App;

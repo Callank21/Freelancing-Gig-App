@@ -1,5 +1,4 @@
 import Developers from './pages/Developers';
-import ProfilePage from './pages/Profiles';
 
 const HomePage = (props) => {
   return (
@@ -30,8 +29,7 @@ const HomePage = (props) => {
         ,
       </section>
       <section>
-        {/* <Developers /> */}
-        {/* <ProfilePage /> */}
+        <Developers />
       </section>
     </section>
   );

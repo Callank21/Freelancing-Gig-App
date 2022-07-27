@@ -77,8 +77,6 @@ ol {
 ul,
 ol {
   padding: 0;
-  webkit-padding: 0;
-  moz-padding: 0;
 }
 hr {
   height: 2px;
@@ -357,6 +355,7 @@ nav ul li ul li a {
 }
 
 /* -------- Login/SignUp Section -------- */
+
 .formz {
   display: flex;
   justify-content: center;

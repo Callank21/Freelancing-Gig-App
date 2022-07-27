@@ -132,8 +132,12 @@
     "hours": 50,
     "username": "Hoyt23Har",
     "image": "👩🏼‍🦳"
+<<<<<<< HEAD
   },
   {
+=======
+  },{
+>>>>>>> 60aafaf8da8f42dcc939d6288d49dd91ffe30052
     "name": "Robin Greene",
     "devType": "WEB",
     "wage": 75,
@@ -918,4 +922,6 @@
     "username": "Graham26",
     "image": "👨🏼"
   }
+
+  
 ]

@@ -11,6 +11,7 @@ const typeDefs = gql`
 
   type Profile {
     _id: ID
+    image: String
     name: String
     devtype: String
     wage: Int
