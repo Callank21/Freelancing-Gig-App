@@ -3,7 +3,6 @@ import HomePage from './components/HomePage';
 import Login from './components/pages/Login';
 import Settings from './components/pages/SettingsPage';
 import Signup from './components/pages/Signup';
-import Profile from './components/pages/ProfilePage';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Developers from './components/pages/Developers';
@@ -11,10 +10,7 @@ import NotFound from './components/pages/NotFound';
 import ProfilePage from './components/pages/Profiles';
 import CategoryPage from './components/pages/CategoryPage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import JsonData from "./data/data.json";
 import './App.css';
-// import CategoryPage from './components/pages/CategoryPage';
-// import ProfilePage from './components/pages/ProfilePage';
 import {
   ApolloClient,
   InMemoryCache,
@@ -51,7 +47,7 @@ function App() {
           <Header />
           <main>
             <Routes>
-              <Route path="/categories/:devType" element={<CategoryPage />} />
+              <Route path="/categories/:devtype" element={<CategoryPage />} />
               <Route path="/" element={<HomePage />} />
               <Route path="/profile" element={<MyProfile />} />
               <Route path="/profile/:id" element={<ProfilePage />} />
@@ -59,7 +55,6 @@ function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
               <Route path="/settings" element={<Settings />} />
-              <Route path="/profile" element={<Profile />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

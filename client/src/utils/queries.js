@@ -96,8 +96,8 @@ export const QUERY_PROFILE = gql`
 `;
 
 export const QUERY_DEV = gql`
-  query developers($devType: String!) {
-    developers(devType: $devType) {
+  query developers($devtype: String!) {
+    developers(devtype: $devtype) {
       _id
       image
       name

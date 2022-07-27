@@ -33,13 +33,13 @@ const resolvers = {
       return Profile.findOne({ _id });
     },
 
-    developers: async (parent, { devType }) => {
-      return Profile.find({ devType: devType });
+    developers: async (parent, { devtype }) => {
+      return Profile.find({ devtype: devtype });
     },
 
-    devTypes: async () => {
+    devtypes: async () => {
       return (await Profile.find())
-        .map((item) => item.devType)
+        .map((item) => item.devtype)
         .filter((v, i, a) => a.indexOf(v) === i);
     },
   },

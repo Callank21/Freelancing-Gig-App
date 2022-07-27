@@ -1,7 +1,7 @@
 [
   {
     "name": "Molly Waters",
-    "devType": "SOFTWARE",
+    "devtype": "SOFTWARE",
     "wage": 70,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor eu augue ut lectus. Viverra nibh cras pulvinar mattis nunc sed blandit libero. Amet nulla facilisi morbi tempus iaculis urna id volutpat. Nam libero justo laoreet sit amet. Elit ullamcorper dignissim cras tincidunt lobortis. Dignissim suspendisse in est ante. Velit sed ullamcorper morbi tincidunt ornare. Feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Non tellus orci ac auctor augue mauris augue neque gravida. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Sit amet aliquam id diam maecenas ultricies mi. Pharetra massa massa ultricies mi quis. Venenatis cras sed felis eget. Egestas sed sed risus pretium quam vulputate dignissim. Ultrices vitae auctor eu augue ut lectus.",
     "workHistory": [
@@ -20,7 +20,7 @@
   },
   {
     "name": "Katlyn Kenobi",
-    "devType": "SOFTWARE",
+    "devtype": "SOFTWARE",
     "wage": 75,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Neque viverra justo nec ultrices dui sapien eget mi. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Egestas purus viverra accumsan in. Convallis posuere morbi leo urna. Sit amet justo donec enim diam vulputate. Commodo ullamcorper a lacus vestibulum sed arcu non. Ornare massa eget egestas purus viverra accumsan. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Nisi lacus sed viverra tellus in.",
     "workHistory": [
@@ -39,7 +39,7 @@
   },
   {
     "name": "Leslie Kautzer",
-    "devType": "SOFTWARE",
+    "devtype": "SOFTWARE",
     "wage": 60,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat nisl pretium fusce id velit ut tortor. Volutpat consequat mauris nunc congue nisi. Aliquam vestibulum morbi blandit cursus. Adipiscing diam donec adipiscing tristique risus nec feugiat. Fames ac turpis egestas integer eget aliquet. Gravida in fermentum et sollicitudin ac orci. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Vulputate dignissim suspendisse in est ante. Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Elit eget gravida cum sociis natoque penatibus et magnis. Condimentum vitae sapien pellentesque habitant morbi tristique. Neque viverra justo nec ultrices dui sapien eget mi. Ac felis donec et odio pellentesque diam volutpat commodo. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Ultricies leo integer malesuada nunc vel. Sit amet est placerat in egestas erat imperdiet.",
     "workHistory": [
@@ -58,7 +58,7 @@
   },
   {
     "name": "Anjali Bergnaum",
-    "devType": "SOFTWARE",
+    "devtype": "SOFTWARE",
     "wage": 85,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu risus quis varius quam quisque. Sodales ut etiam sit amet nisl. Pellentesque dignissim enim sit amet venenatis urna. Fusce ut placerat orci nulla. Vitae et leo duis ut diam. Vitae congue eu consequat ac felis. Hendrerit gravida rutrum quisque non tellus orci ac auctor. Ipsum dolor sit amet consectetur adipiscing. Ultrices eros in cursus turpis. Velit sed ullamcorper morbi tincidunt.",
     "workHistory": [
@@ -77,7 +77,7 @@
   },
   {
     "name": "Daiji Rempel",
-    "devType": "SOFTWARE",
+    "devtype": "SOFTWARE",
     "wage": 70,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat. Est ante in nibh mauris cursus mattis. Accumsan lacus vel facilisis volutpat est velit. Sed libero enim sed faucibus turpis. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Maecenas sed enim ut sem viverra aliquet eget sit. Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Sociis natoque penatibus et magnis dis parturient montes nascetur. Magna sit amet purus gravida quis.",
     "workHistory": [
@@ -96,7 +96,7 @@
   },
   {
     "name": "Donald Osmond",
-    "devType": "SOFTWARE",
+    "devtype": "SOFTWARE",
     "wage": 100,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempus egestas sed sed risus pretium. Integer quis auctor elit sed vulputate mi sit amet mauris. Nisi vitae suscipit tellus mauris a diam maecenas. Nulla pharetra diam sit amet. Lorem mollis aliquam ut porttitor leo a diam. Pulvinar elementum integer enim neque volutpat ac tincidunt. Turpis egestas integer eget aliquet nibh. Dolor sit amet consectetur adipiscing elit duis. Arcu risus quis varius quam quisque id diam vel quam. Risus ultricies tristique nulla aliquet enim tortor at auctor. Eget arcu dictum varius duis at consectetur lorem donec. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus.",
     "workHistory": [
@@ -116,7 +116,7 @@
 
   {
     "name": "Harlan Hoyt",
-    "devType": "WEB",
+    "devtype": "WEB",
     "wage": 150,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempus egestas sed sed risus pretium. Integer quis auctor elit sed vulputate mi sit amet mauris. Nisi vitae suscipit tellus mauris a diam maecenas. Nulla pharetra diam sit amet. Lorem mollis aliquam ut porttitor leo a diam. Pulvinar elementum integer enim neque volutpat ac tincidunt. Turpis egestas integer eget aliquet nibh. Dolor sit amet consectetur adipiscing elit duis. Arcu risus quis varius quam quisque id diam vel quam. Risus ultricies tristique nulla aliquet enim tortor at auctor. Eget arcu dictum varius duis at consectetur lorem donec. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus.",
     "workHistory": [
@@ -132,14 +132,10 @@
     "hours": 50,
     "username": "Hoyt23Har",
     "image": "👩🏼‍🦳"
-<<<<<<< HEAD
   },
   {
-=======
-  },{
->>>>>>> 60aafaf8da8f42dcc939d6288d49dd91ffe30052
     "name": "Robin Greene",
-    "devType": "WEB",
+    "devtype": "WEB",
     "wage": 75,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Neque viverra justo nec ultrices dui sapien eget mi. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Egestas purus viverra accumsan in. Convallis posuere morbi leo urna. Sit amet justo donec enim diam vulputate. Commodo ullamcorper a lacus vestibulum sed arcu non. Ornare massa eget egestas purus viverra accumsan. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Nisi lacus sed viverra tellus in.",
     "workHistory": [
@@ -158,7 +154,7 @@
   },
   {
     "name": "Angel Jackson",
-    "devType": "WEB",
+    "devtype": "WEB",
     "wage": 60,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat nisl pretium fusce id velit ut tortor. Volutpat consequat mauris nunc congue nisi. Aliquam vestibulum morbi blandit cursus. Adipiscing diam donec adipiscing tristique risus nec feugiat. Fames ac turpis egestas integer eget aliquet. Gravida in fermentum et sollicitudin ac orci. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Vulputate dignissim suspendisse in est ante. Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Elit eget gravida cum sociis natoque penatibus et magnis. Condimentum vitae sapien pellentesque habitant morbi tristique. Neque viverra justo nec ultrices dui sapien eget mi. Ac felis donec et odio pellentesque diam volutpat commodo. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Ultricies leo integer malesuada nunc vel. Sit amet est placerat in egestas erat imperdiet.",
     "workHistory": [
@@ -177,7 +173,7 @@
   },
   {
     "name": "Carmen Austin",
-    "devType": "WEB",
+    "devtype": "WEB",
     "wage": 85,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu risus quis varius quam quisque. Sodales ut etiam sit amet nisl. Pellentesque dignissim enim sit amet venenatis urna. Fusce ut placerat orci nulla. Vitae et leo duis ut diam. Vitae congue eu consequat ac felis. Hendrerit gravida rutrum quisque non tellus orci ac auctor. Ipsum dolor sit amet consectetur adipiscing. Ultrices eros in cursus turpis. Velit sed ullamcorper morbi tincidunt.",
     "workHistory": [
@@ -196,7 +192,7 @@
   },
   {
     "name": "Laura Hunt",
-    "devType": "WEB",
+    "devtype": "WEB",
     "wage": 70,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat. Est ante in nibh mauris cursus mattis. Accumsan lacus vel facilisis volutpat est velit. Sed libero enim sed faucibus turpis. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Maecenas sed enim ut sem viverra aliquet eget sit. Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Sociis natoque penatibus et magnis dis parturient montes nascetur. Magna sit amet purus gravida quis.",
     "workHistory": [
@@ -215,7 +211,7 @@
   },
   {
     "name": "Isaac Banks",
-    "devType": "WEB",
+    "devtype": "WEB",
     "wage": 100,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempus egestas sed sed risus pretium. Integer quis auctor elit sed vulputate mi sit amet mauris. Nisi vitae suscipit tellus mauris a diam maecenas. Nulla pharetra diam sit amet. Lorem mollis aliquam ut porttitor leo a diam. Pulvinar elementum integer enim neque volutpat ac tincidunt. Turpis egestas integer eget aliquet nibh. Dolor sit amet consectetur adipiscing elit duis. Arcu risus quis varius quam quisque id diam vel quam. Risus ultricies tristique nulla aliquet enim tortor at auctor. Eget arcu dictum varius duis at consectetur lorem donec. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus.",
     "workHistory": [
@@ -235,7 +231,7 @@
 
   {
     "name": "Vivian Howell",
-    "devType": "MOBILE",
+    "devtype": "MOBILE",
     "wage": 150,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempus egestas sed sed risus pretium. Integer quis auctor elit sed vulputate mi sit amet mauris. Nisi vitae suscipit tellus mauris a diam maecenas. Nulla pharetra diam sit amet. Lorem mollis aliquam ut porttitor leo a diam. Pulvinar elementum integer enim neque volutpat ac tincidunt. Turpis egestas integer eget aliquet nibh. Dolor sit amet consectetur adipiscing elit duis. Arcu risus quis varius quam quisque id diam vel quam. Risus ultricies tristique nulla aliquet enim tortor at auctor. Eget arcu dictum varius duis at consectetur lorem donec. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus.",
     "workHistory": [
@@ -254,7 +250,7 @@
   },
   {
     "name": "Adrian Jenson",
-    "devType": "MOBILE",
+    "devtype": "MOBILE",
     "wage": 75,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Neque viverra justo nec ultrices dui sapien eget mi. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Egestas purus viverra accumsan in. Convallis posuere morbi leo urna. Sit amet justo donec enim diam vulputate. Commodo ullamcorper a lacus vestibulum sed arcu non. Ornare massa eget egestas purus viverra accumsan. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Nisi lacus sed viverra tellus in.",
     "workHistory": [
@@ -273,7 +269,7 @@
   },
   {
     "name": "Meredith Howard",
-    "devType": "MOBILE",
+    "devtype": "MOBILE",
     "wage": 60,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat nisl pretium fusce id velit ut tortor. Volutpat consequat mauris nunc congue nisi. Aliquam vestibulum morbi blandit cursus. Adipiscing diam donec adipiscing tristique risus nec feugiat. Fames ac turpis egestas integer eget aliquet. Gravida in fermentum et sollicitudin ac orci. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Vulputate dignissim suspendisse in est ante. Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Elit eget gravida cum sociis natoque penatibus et magnis. Condimentum vitae sapien pellentesque habitant morbi tristique. Neque viverra justo nec ultrices dui sapien eget mi. Ac felis donec et odio pellentesque diam volutpat commodo. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Ultricies leo integer malesuada nunc vel. Sit amet est placerat in egestas erat imperdiet.",
     "workHistory": [
@@ -292,7 +288,7 @@
   },
   {
     "name": "Gilberta Richards",
-    "devType": "MOBILE",
+    "devtype": "MOBILE",
     "wage": 85,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu risus quis varius quam quisque. Sodales ut etiam sit amet nisl. Pellentesque dignissim enim sit amet venenatis urna. Fusce ut placerat orci nulla. Vitae et leo duis ut diam. Vitae congue eu consequat ac felis. Hendrerit gravida rutrum quisque non tellus orci ac auctor. Ipsum dolor sit amet consectetur adipiscing. Ultrices eros in cursus turpis. Velit sed ullamcorper morbi tincidunt.",
     "workHistory": [
@@ -311,7 +307,7 @@
   },
   {
     "name": "Shelly Andrews",
-    "devType": "MOBILE",
+    "devtype": "MOBILE",
     "wage": 70,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat. Est ante in nibh mauris cursus mattis. Accumsan lacus vel facilisis volutpat est velit. Sed libero enim sed faucibus turpis. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Maecenas sed enim ut sem viverra aliquet eget sit. Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Sociis natoque penatibus et magnis dis parturient montes nascetur. Magna sit amet purus gravida quis.",
     "workHistory": [
@@ -330,7 +326,7 @@
   },
   {
     "name": "Alvin Rivera",
-    "devType": "MOBILE",
+    "devtype": "MOBILE",
     "wage": 100,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempus egestas sed sed risus pretium. Integer quis auctor elit sed vulputate mi sit amet mauris. Nisi vitae suscipit tellus mauris a diam maecenas. Nulla pharetra diam sit amet. Lorem mollis aliquam ut porttitor leo a diam. Pulvinar elementum integer enim neque volutpat ac tincidunt. Turpis egestas integer eget aliquet nibh. Dolor sit amet consectetur adipiscing elit duis. Arcu risus quis varius quam quisque id diam vel quam. Risus ultricies tristique nulla aliquet enim tortor at auctor. Eget arcu dictum varius duis at consectetur lorem donec. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus.",
     "workHistory": [
@@ -350,7 +346,7 @@
 
   {
     "name": "Celia Harper",
-    "devType": "JAVASCRIPT",
+    "devtype": "JAVASCRIPT",
     "wage": 150,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempus egestas sed sed risus pretium. Integer quis auctor elit sed vulputate mi sit amet mauris. Nisi vitae suscipit tellus mauris a diam maecenas. Nulla pharetra diam sit amet. Lorem mollis aliquam ut porttitor leo a diam. Pulvinar elementum integer enim neque volutpat ac tincidunt. Turpis egestas integer eget aliquet nibh. Dolor sit amet consectetur adipiscing elit duis. Arcu risus quis varius quam quisque id diam vel quam. Risus ultricies tristique nulla aliquet enim tortor at auctor. Eget arcu dictum varius duis at consectetur lorem donec. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus.",
     "workHistory": [
@@ -369,7 +365,7 @@
   },
   {
     "name": "Colleen Coleman",
-    "devType": "JAVASCRIPT",
+    "devtype": "JAVASCRIPT",
     "wage": 75,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Neque viverra justo nec ultrices dui sapien eget mi. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Egestas purus viverra accumsan in. Convallis posuere morbi leo urna. Sit amet justo donec enim diam vulputate. Commodo ullamcorper a lacus vestibulum sed arcu non. Ornare massa eget egestas purus viverra accumsan. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Nisi lacus sed viverra tellus in.",
     "workHistory": [
@@ -388,7 +384,7 @@
   },
   {
     "name": "Lea Norton",
-    "devType": "JAVASCRIPT",
+    "devtype": "JAVASCRIPT",
     "wage": 60,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat nisl pretium fusce id velit ut tortor. Volutpat consequat mauris nunc congue nisi. Aliquam vestibulum morbi blandit cursus. Adipiscing diam donec adipiscing tristique risus nec feugiat. Fames ac turpis egestas integer eget aliquet. Gravida in fermentum et sollicitudin ac orci. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Vulputate dignissim suspendisse in est ante. Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Elit eget gravida cum sociis natoque penatibus et magnis. Condimentum vitae sapien pellentesque habitant morbi tristique. Neque viverra justo nec ultrices dui sapien eget mi. Ac felis donec et odio pellentesque diam volutpat commodo. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Ultricies leo integer malesuada nunc vel. Sit amet est placerat in egestas erat imperdiet.",
     "workHistory": [
@@ -407,7 +403,7 @@
   },
   {
     "name": "Rose Wagner",
-    "devType": "JAVASCRIPT",
+    "devtype": "JAVASCRIPT",
     "wage": 85,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu risus quis varius quam quisque. Sodales ut etiam sit amet nisl. Pellentesque dignissim enim sit amet venenatis urna. Fusce ut placerat orci nulla. Vitae et leo duis ut diam. Vitae congue eu consequat ac felis. Hendrerit gravida rutrum quisque non tellus orci ac auctor. Ipsum dolor sit amet consectetur adipiscing. Ultrices eros in cursus turpis. Velit sed ullamcorper morbi tincidunt.",
     "workHistory": [
@@ -426,7 +422,7 @@
   },
   {
     "name": "Maggie Cox",
-    "devType": "JAVASCRIPT",
+    "devtype": "JAVASCRIPT",
     "wage": 70,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat. Est ante in nibh mauris cursus mattis. Accumsan lacus vel facilisis volutpat est velit. Sed libero enim sed faucibus turpis. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Maecenas sed enim ut sem viverra aliquet eget sit. Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Sociis natoque penatibus et magnis dis parturient montes nascetur. Magna sit amet purus gravida quis.",
     "workHistory": [
@@ -445,7 +441,7 @@
   },
   {
     "name": "Emanual Miles",
-    "devType": "JAVASCRIPT",
+    "devtype": "JAVASCRIPT",
     "wage": 100,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempus egestas sed sed risus pretium. Integer quis auctor elit sed vulputate mi sit amet mauris. Nisi vitae suscipit tellus mauris a diam maecenas. Nulla pharetra diam sit amet. Lorem mollis aliquam ut porttitor leo a diam. Pulvinar elementum integer enim neque volutpat ac tincidunt. Turpis egestas integer eget aliquet nibh. Dolor sit amet consectetur adipiscing elit duis. Arcu risus quis varius quam quisque id diam vel quam. Risus ultricies tristique nulla aliquet enim tortor at auctor. Eget arcu dictum varius duis at consectetur lorem donec. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus.",
     "workHistory": [
@@ -465,7 +461,7 @@
 
   {
     "name": "Annie Hodges",
-    "devType": "PHP",
+    "devtype": "PHP",
     "wage": 150,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempus egestas sed sed risus pretium. Integer quis auctor elit sed vulputate mi sit amet mauris. Nisi vitae suscipit tellus mauris a diam maecenas. Nulla pharetra diam sit amet. Lorem mollis aliquam ut porttitor leo a diam. Pulvinar elementum integer enim neque volutpat ac tincidunt. Turpis egestas integer eget aliquet nibh. Dolor sit amet consectetur adipiscing elit duis. Arcu risus quis varius quam quisque id diam vel quam. Risus ultricies tristique nulla aliquet enim tortor at auctor. Eget arcu dictum varius duis at consectetur lorem donec. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus.",
     "workHistory": [
@@ -484,7 +480,7 @@
   },
   {
     "name": "Rosemary Larson",
-    "devType": "PHP",
+    "devtype": "PHP",
     "wage": 75,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Neque viverra justo nec ultrices dui sapien eget mi. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Egestas purus viverra accumsan in. Convallis posuere morbi leo urna. Sit amet justo donec enim diam vulputate. Commodo ullamcorper a lacus vestibulum sed arcu non. Ornare massa eget egestas purus viverra accumsan. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Nisi lacus sed viverra tellus in.",
     "workHistory": [
@@ -503,7 +499,7 @@
   },
   {
     "name": "Mable Butler",
-    "devType": "PHP",
+    "devtype": "PHP",
     "wage": 60,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat nisl pretium fusce id velit ut tortor. Volutpat consequat mauris nunc congue nisi. Aliquam vestibulum morbi blandit cursus. Adipiscing diam donec adipiscing tristique risus nec feugiat. Fames ac turpis egestas integer eget aliquet. Gravida in fermentum et sollicitudin ac orci. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Vulputate dignissim suspendisse in est ante. Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Elit eget gravida cum sociis natoque penatibus et magnis. Condimentum vitae sapien pellentesque habitant morbi tristique. Neque viverra justo nec ultrices dui sapien eget mi. Ac felis donec et odio pellentesque diam volutpat commodo. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Ultricies leo integer malesuada nunc vel. Sit amet est placerat in egestas erat imperdiet.",
     "workHistory": [
@@ -522,7 +518,7 @@
   },
   {
     "name": "Celia Park",
-    "devType": "PHP",
+    "devtype": "PHP",
     "wage": 85,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu risus quis varius quam quisque. Sodales ut etiam sit amet nisl. Pellentesque dignissim enim sit amet venenatis urna. Fusce ut placerat orci nulla. Vitae et leo duis ut diam. Vitae congue eu consequat ac felis. Hendrerit gravida rutrum quisque non tellus orci ac auctor. Ipsum dolor sit amet consectetur adipiscing. Ultrices eros in cursus turpis. Velit sed ullamcorper morbi tincidunt.",
     "workHistory": [
@@ -541,7 +537,7 @@
   },
   {
     "name": "Eloise Norris",
-    "devType": "PHP",
+    "devtype": "PHP",
     "wage": 70,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat. Est ante in nibh mauris cursus mattis. Accumsan lacus vel facilisis volutpat est velit. Sed libero enim sed faucibus turpis. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Maecenas sed enim ut sem viverra aliquet eget sit. Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Sociis natoque penatibus et magnis dis parturient montes nascetur. Magna sit amet purus gravida quis.",
     "workHistory": [
@@ -560,7 +556,7 @@
   },
   {
     "name": "Dallas Webster",
-    "devType": "PHP",
+    "devtype": "PHP",
     "wage": 100,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempus egestas sed sed risus pretium. Integer quis auctor elit sed vulputate mi sit amet mauris. Nisi vitae suscipit tellus mauris a diam maecenas. Nulla pharetra diam sit amet. Lorem mollis aliquam ut porttitor leo a diam. Pulvinar elementum integer enim neque volutpat ac tincidunt. Turpis egestas integer eget aliquet nibh. Dolor sit amet consectetur adipiscing elit duis. Arcu risus quis varius quam quisque id diam vel quam. Risus ultricies tristique nulla aliquet enim tortor at auctor. Eget arcu dictum varius duis at consectetur lorem donec. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus.",
     "workHistory": [
@@ -580,7 +576,7 @@
 
   {
     "name": "Erika Lane",
-    "devType": "WORDPRESS",
+    "devtype": "WORDPRESS",
     "wage": 150,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempus egestas sed sed risus pretium. Integer quis auctor elit sed vulputate mi sit amet mauris. Nisi vitae suscipit tellus mauris a diam maecenas. Nulla pharetra diam sit amet. Lorem mollis aliquam ut porttitor leo a diam. Pulvinar elementum integer enim neque volutpat ac tincidunt. Turpis egestas integer eget aliquet nibh. Dolor sit amet consectetur adipiscing elit duis. Arcu risus quis varius quam quisque id diam vel quam. Risus ultricies tristique nulla aliquet enim tortor at auctor. Eget arcu dictum varius duis at consectetur lorem donec. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus.",
     "workHistory": [
@@ -599,7 +595,7 @@
   },
   {
     "name": "Danielle Kelley",
-    "devType": "WORDPRESS",
+    "devtype": "WORDPRESS",
     "wage": 75,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Neque viverra justo nec ultrices dui sapien eget mi. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Egestas purus viverra accumsan in. Convallis posuere morbi leo urna. Sit amet justo donec enim diam vulputate. Commodo ullamcorper a lacus vestibulum sed arcu non. Ornare massa eget egestas purus viverra accumsan. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Nisi lacus sed viverra tellus in.",
     "workHistory": [
@@ -618,7 +614,7 @@
   },
   {
     "name": "Isabel Harrington",
-    "devType": "WORDPRESS",
+    "devtype": "WORDPRESS",
     "wage": 60,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat nisl pretium fusce id velit ut tortor. Volutpat consequat mauris nunc congue nisi. Aliquam vestibulum morbi blandit cursus. Adipiscing diam donec adipiscing tristique risus nec feugiat. Fames ac turpis egestas integer eget aliquet. Gravida in fermentum et sollicitudin ac orci. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Vulputate dignissim suspendisse in est ante. Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Elit eget gravida cum sociis natoque penatibus et magnis. Condimentum vitae sapien pellentesque habitant morbi tristique. Neque viverra justo nec ultrices dui sapien eget mi. Ac felis donec et odio pellentesque diam volutpat commodo. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Ultricies leo integer malesuada nunc vel. Sit amet est placerat in egestas erat imperdiet.",
     "workHistory": [
@@ -637,7 +633,7 @@
   },
   {
     "name": "Angie Alvarez",
-    "devType": "WORDPRESS",
+    "devtype": "WORDPRESS",
     "wage": 85,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu risus quis varius quam quisque. Sodales ut etiam sit amet nisl. Pellentesque dignissim enim sit amet venenatis urna. Fusce ut placerat orci nulla. Vitae et leo duis ut diam. Vitae congue eu consequat ac felis. Hendrerit gravida rutrum quisque non tellus orci ac auctor. Ipsum dolor sit amet consectetur adipiscing. Ultrices eros in cursus turpis. Velit sed ullamcorper morbi tincidunt.",
     "workHistory": [
@@ -656,7 +652,7 @@
   },
   {
     "name": "Jessie Watkins",
-    "devType": "WORDPRESS",
+    "devtype": "WORDPRESS",
     "wage": 70,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat. Est ante in nibh mauris cursus mattis. Accumsan lacus vel facilisis volutpat est velit. Sed libero enim sed faucibus turpis. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Maecenas sed enim ut sem viverra aliquet eget sit. Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Sociis natoque penatibus et magnis dis parturient montes nascetur. Magna sit amet purus gravida quis.",
     "workHistory": [
@@ -675,7 +671,7 @@
   },
   {
     "name": "Kyle Bass",
-    "devType": "WORDPRESS",
+    "devtype": "WORDPRESS",
     "wage": 100,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempus egestas sed sed risus pretium. Integer quis auctor elit sed vulputate mi sit amet mauris. Nisi vitae suscipit tellus mauris a diam maecenas. Nulla pharetra diam sit amet. Lorem mollis aliquam ut porttitor leo a diam. Pulvinar elementum integer enim neque volutpat ac tincidunt. Turpis egestas integer eget aliquet nibh. Dolor sit amet consectetur adipiscing elit duis. Arcu risus quis varius quam quisque id diam vel quam. Risus ultricies tristique nulla aliquet enim tortor at auctor. Eget arcu dictum varius duis at consectetur lorem donec. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus.",
     "workHistory": [
@@ -695,7 +691,7 @@
 
   {
     "name": "Lila Cooper",
-    "devType": "PYTHON",
+    "devtype": "PYTHON",
     "wage": 150,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempus egestas sed sed risus pretium. Integer quis auctor elit sed vulputate mi sit amet mauris. Nisi vitae suscipit tellus mauris a diam maecenas. Nulla pharetra diam sit amet. Lorem mollis aliquam ut porttitor leo a diam. Pulvinar elementum integer enim neque volutpat ac tincidunt. Turpis egestas integer eget aliquet nibh. Dolor sit amet consectetur adipiscing elit duis. Arcu risus quis varius quam quisque id diam vel quam. Risus ultricies tristique nulla aliquet enim tortor at auctor. Eget arcu dictum varius duis at consectetur lorem donec. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus.",
     "workHistory": [
@@ -714,7 +710,7 @@
   },
   {
     "name": "Beverely Mcgee",
-    "devType": "PYTHON",
+    "devtype": "PYTHON",
     "wage": 75,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Neque viverra justo nec ultrices dui sapien eget mi. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Egestas purus viverra accumsan in. Convallis posuere morbi leo urna. Sit amet justo donec enim diam vulputate. Commodo ullamcorper a lacus vestibulum sed arcu non. Ornare massa eget egestas purus viverra accumsan. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Nisi lacus sed viverra tellus in.",
     "workHistory": [
@@ -733,7 +729,7 @@
   },
   {
     "name": "Courtney Ortega",
-    "devType": "PYTHON",
+    "devtype": "PYTHON",
     "wage": 60,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat nisl pretium fusce id velit ut tortor. Volutpat consequat mauris nunc congue nisi. Aliquam vestibulum morbi blandit cursus. Adipiscing diam donec adipiscing tristique risus nec feugiat. Fames ac turpis egestas integer eget aliquet. Gravida in fermentum et sollicitudin ac orci. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Vulputate dignissim suspendisse in est ante. Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Elit eget gravida cum sociis natoque penatibus et magnis. Condimentum vitae sapien pellentesque habitant morbi tristique. Neque viverra justo nec ultrices dui sapien eget mi. Ac felis donec et odio pellentesque diam volutpat commodo. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Ultricies leo integer malesuada nunc vel. Sit amet est placerat in egestas erat imperdiet.",
     "workHistory": [
@@ -752,7 +748,7 @@
   },
   {
     "name": "Tricia Pratt",
-    "devType": "PYTHON",
+    "devtype": "PYTHON",
     "wage": 85,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu risus quis varius quam quisque. Sodales ut etiam sit amet nisl. Pellentesque dignissim enim sit amet venenatis urna. Fusce ut placerat orci nulla. Vitae et leo duis ut diam. Vitae congue eu consequat ac felis. Hendrerit gravida rutrum quisque non tellus orci ac auctor. Ipsum dolor sit amet consectetur adipiscing. Ultrices eros in cursus turpis. Velit sed ullamcorper morbi tincidunt.",
     "workHistory": [
@@ -771,7 +767,7 @@
   },
   {
     "name": "Nichole Warren",
-    "devType": "PYTHON",
+    "devtype": "PYTHON",
     "wage": 70,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat. Est ante in nibh mauris cursus mattis. Accumsan lacus vel facilisis volutpat est velit. Sed libero enim sed faucibus turpis. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Maecenas sed enim ut sem viverra aliquet eget sit. Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Sociis natoque penatibus et magnis dis parturient montes nascetur. Magna sit amet purus gravida quis.",
     "workHistory": [
@@ -790,7 +786,7 @@
   },
   {
     "name": "Brendan Harvey",
-    "devType": "PYTHON",
+    "devtype": "PYTHON",
     "wage": 100,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempus egestas sed sed risus pretium. Integer quis auctor elit sed vulputate mi sit amet mauris. Nisi vitae suscipit tellus mauris a diam maecenas. Nulla pharetra diam sit amet. Lorem mollis aliquam ut porttitor leo a diam. Pulvinar elementum integer enim neque volutpat ac tincidunt. Turpis egestas integer eget aliquet nibh. Dolor sit amet consectetur adipiscing elit duis. Arcu risus quis varius quam quisque id diam vel quam. Risus ultricies tristique nulla aliquet enim tortor at auctor. Eget arcu dictum varius duis at consectetur lorem donec. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus.",
     "workHistory": [
@@ -810,7 +806,7 @@
 
   {
     "name": "Debbie Schultz",
-    "devType": "NET",
+    "devtype": "NET",
     "wage": 150,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempus egestas sed sed risus pretium. Integer quis auctor elit sed vulputate mi sit amet mauris. Nisi vitae suscipit tellus mauris a diam maecenas. Nulla pharetra diam sit amet. Lorem mollis aliquam ut porttitor leo a diam. Pulvinar elementum integer enim neque volutpat ac tincidunt. Turpis egestas integer eget aliquet nibh. Dolor sit amet consectetur adipiscing elit duis. Arcu risus quis varius quam quisque id diam vel quam. Risus ultricies tristique nulla aliquet enim tortor at auctor. Eget arcu dictum varius duis at consectetur lorem donec. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus.",
     "workHistory": [
@@ -829,7 +825,7 @@
   },
   {
     "name": "Carol Arnold",
-    "devType": "NET",
+    "devtype": "NET",
     "wage": 75,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Neque viverra justo nec ultrices dui sapien eget mi. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Egestas purus viverra accumsan in. Convallis posuere morbi leo urna. Sit amet justo donec enim diam vulputate. Commodo ullamcorper a lacus vestibulum sed arcu non. Ornare massa eget egestas purus viverra accumsan. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Nisi lacus sed viverra tellus in.",
     "workHistory": [
@@ -848,7 +844,7 @@
   },
   {
     "name": "Clara Todd",
-    "devType": "NET",
+    "devtype": "NET",
     "wage": 60,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Feugiat nisl pretium fusce id velit ut tortor. Volutpat consequat mauris nunc congue nisi. Aliquam vestibulum morbi blandit cursus. Adipiscing diam donec adipiscing tristique risus nec feugiat. Fames ac turpis egestas integer eget aliquet. Gravida in fermentum et sollicitudin ac orci. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Vulputate dignissim suspendisse in est ante. Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Elit eget gravida cum sociis natoque penatibus et magnis. Condimentum vitae sapien pellentesque habitant morbi tristique. Neque viverra justo nec ultrices dui sapien eget mi. Ac felis donec et odio pellentesque diam volutpat commodo. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Ultricies leo integer malesuada nunc vel. Sit amet est placerat in egestas erat imperdiet.",
     "workHistory": [
@@ -867,7 +863,7 @@
   },
   {
     "name": "Cecilia Burns",
-    "devType": "NET",
+    "devtype": "NET",
     "wage": 85,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu risus quis varius quam quisque. Sodales ut etiam sit amet nisl. Pellentesque dignissim enim sit amet venenatis urna. Fusce ut placerat orci nulla. Vitae et leo duis ut diam. Vitae congue eu consequat ac felis. Hendrerit gravida rutrum quisque non tellus orci ac auctor. Ipsum dolor sit amet consectetur adipiscing. Ultrices eros in cursus turpis. Velit sed ullamcorper morbi tincidunt.",
     "workHistory": [
@@ -886,7 +882,7 @@
   },
   {
     "name": "Judith Chavez",
-    "devType": "NET",
+    "devtype": "NET",
     "wage": 70,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar sapien et ligula ullamcorper malesuada proin libero nunc consequat. Est ante in nibh mauris cursus mattis. Accumsan lacus vel facilisis volutpat est velit. Sed libero enim sed faucibus turpis. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Maecenas sed enim ut sem viverra aliquet eget sit. Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Sociis natoque penatibus et magnis dis parturient montes nascetur. Magna sit amet purus gravida quis.",
     "workHistory": [
@@ -905,7 +901,7 @@
   },
   {
     "name": "Jaime Graham",
-    "devType": "NET",
+    "devtype": "NET",
     "wage": 100,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui nunc mattis enim ut tellus. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempus egestas sed sed risus pretium. Integer quis auctor elit sed vulputate mi sit amet mauris. Nisi vitae suscipit tellus mauris a diam maecenas. Nulla pharetra diam sit amet. Lorem mollis aliquam ut porttitor leo a diam. Pulvinar elementum integer enim neque volutpat ac tincidunt. Turpis egestas integer eget aliquet nibh. Dolor sit amet consectetur adipiscing elit duis. Arcu risus quis varius quam quisque id diam vel quam. Risus ultricies tristique nulla aliquet enim tortor at auctor. Eget arcu dictum varius duis at consectetur lorem donec. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus.",
     "workHistory": [
@@ -922,6 +918,4 @@
     "username": "Graham26",
     "image": "👨🏼"
   }
-
-  
 ]

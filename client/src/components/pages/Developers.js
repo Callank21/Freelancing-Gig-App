@@ -11,7 +11,7 @@ const Developers = () => {
   const { data } = useQuery(DEV_TYPES);
   const [devCard, setDevCard] = useState([]);
   useEffect(() => {
-    data && setDevCard(data.devTypes);
+    data && setDevCard(data.devtypes);
     // data && setDevCard(data.devType);
   }, [data]);
 

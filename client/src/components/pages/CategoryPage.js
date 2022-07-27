@@ -7,10 +7,10 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const CategoryPage = (name) => {
-  const { devType } = useParams();
+  const { devtype } = useParams();
 
   const { data } = useQuery(QUERY_DEV, {
-    variables: { devType },
+    variables: { devtype },
   });
 
   const [profCard, setProfCard] = useState([]);
