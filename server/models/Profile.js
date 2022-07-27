@@ -7,7 +7,7 @@ const profileSchema = new Schema(
       type: String,
       required: true,
     },
-    devType: {
+    devtype: {
       type: String,
       required: true,
     },
@@ -19,24 +19,25 @@ const profileSchema = new Schema(
       type: String,
       required: true,
     },
-    workHistory: [
+    workhistory: [
       {
         type: String,
+        required: true,
       },
     ],
     education: [
       {
         type: String,
+        required: true,
       },
     ],
     hours: {
       type: Number,
+      required: true,
     },
     username: {
       type: String,
-    },
-    image: {
-      type: String,
+      required: true,
     },
   },
   {

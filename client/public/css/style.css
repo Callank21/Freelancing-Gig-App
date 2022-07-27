@@ -123,7 +123,7 @@ h2.h2z {
 }
 
 #btn {
-  font-size: 0.8em;
+  font-size: 1em;
   text-transform: uppercase;
   padding: 5px 10px;
   margin: 0px;
@@ -804,6 +804,42 @@ li p {
 #contact .social i.fa:hover {
   color: #608dfd;
   background: #fff;
+}
+
+/*--------- My Profile ----------*/
+
+.title {
+  text-align: left;
+}
+
+.user-info {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  padding-bottom: 5px;
+  color: black;
+}
+
+.add-profile {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.add-button {
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  margin: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
 }
 
 /* --------- Footer Section ---------*/

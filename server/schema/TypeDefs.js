@@ -12,14 +12,13 @@ const typeDefs = gql`
   type Profile {
     _id: ID
     name: String
-    devType: String
+    devtype: String
     wage: Int
     description: String
-    workHistory: [String]
+    workhistory: [String]
     education: [String]
     hours: Int
     username: String
-    image: String
   }
 
   type Auth {
@@ -44,12 +43,13 @@ const typeDefs = gql`
     createUser(username: String!, email: String!, password: String!): Auth
     createProfile(
       name: String!
-      devType: String!
+      devtype: String!
       wage: Int!
       description: String!
-      workHistory: [String]
-      education: [String]
-      hours: Int
+      workhistory: [String]!
+      education: [String]!
+      hours: Int!
+      username: String!
     ): Profile
     deleteUser(_id: ID!): User
     deleteProfile(_id: ID!): Profile
@@ -57,12 +57,13 @@ const typeDefs = gql`
     updateProfile(
       _id: ID!
       name: String
-      devType: String
+      devtype: String
       wage: Int
       description: String
-      workHistory: [String]
+      workhistory: [String]
       education: [String]
       hours: Int
+      username: String
     ): Profile
   }
 `;

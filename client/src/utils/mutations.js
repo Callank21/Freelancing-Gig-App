@@ -27,27 +27,30 @@ export const CREATE_USER = gql`
 export const CREATE_PROFILE = gql`
   mutation createProfile(
     $name: String!
-    $devType: String!
+    $devtype: String!
     $wage: Int!
     $description: String!
-    $workHistory: [String]
-    $education: [String]
-    $hours: Int
+    $workhistory: [String]!
+    $education: [String]!
+    $hours: Int!
+    $username: String!
   ) {
     createProfile(
       name: $name
-      devType: $devtype
+      devtype: $devtype
+      wage: $wage
       description: $description
-      workHistory: $workhistory
+      workhistory: $workhistory
       education: $education
       hours: $hours
+      username: $username
     ) {
       _id
       name
-      devType
+      devtype
       wage
       description
-      workHistory
+      workhistory
       education
       hours
       username
@@ -64,10 +67,10 @@ export const DELETE_USER = gql`
       profile {
         _id
         name
-        devType
+        devtype
         wage
         description
-        workHistory
+        workhistory
         education
         hours
         username
@@ -81,10 +84,10 @@ export const DELETE_PROFILE = gql`
     deleteProfile(_id: $id) {
       _id
       name
-      devType
+      devtype
       wage
       description
-      workHistory
+      workhistory
       education
       hours
       username
@@ -106,28 +109,31 @@ export const UPDATE_PROFILE = gql`
   mutation updateProfile(
     $id: ID!
     $name: String
-    $devType: String
+    $devtype: String
     $wage: Int
     $description: String
-    $workHistory: [String]
+    $workhistory: [String]
     $education: [String]
     $hours: Int
+    $username: String!
   ) {
     updateProfile(
       _id: $id
+      wage: $wage
       name: $name
-      devType: $devtype
+      devtype: $devtype
       description: $description
-      workHistory: $workhistory
+      workhistory: $workhistory
       education: $education
       hours: $hours
+      username: $username
     ) {
       _id
       name
-      devType
+      devtype
       wage
       description
-      workHistory
+      workhistory
       education
       hours
       username

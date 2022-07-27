@@ -22,6 +22,11 @@ function Navigation() {
             </Link>
             {Auth.loggedIn() ? (
               <>
+                <Link to="/profile">
+                  <li key="profile" className="nav-p">
+                    PROFILE
+                  </li>
+                </Link>
                 <Link to="/" onClick={Auth.logout}>
                   <li key="login" className="nav-p">
                     LOGOUT

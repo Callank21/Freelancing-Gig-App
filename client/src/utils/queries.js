@@ -9,10 +9,10 @@ export const QUERY_ME = gql`
       profile {
         _id
         name
-        devType
+        devtype
         wage
         description
-        workHistory
+        workhistory
         education
         hours
         username
@@ -30,10 +30,10 @@ export const QUERY_USER = gql`
       profile {
         _id
         name
-        devType
+        devtype
         wage
         description
-        workHistory
+        workhistory
         education
         hours
         username
@@ -51,10 +51,10 @@ export const QUERY_USERS = gql`
       profile {
         _id
         name
-        devType
+        devtype
         wage
         description
-        workHistory
+        workhistory
         education
         hours
         username
@@ -68,10 +68,10 @@ export const QUERY_PROFILES = gql`
     profiles {
       _id
       name
-      devType
+      devtype
       wage
       description
-      workHistory
+      workhistory
       education
       hours
       username
@@ -84,10 +84,10 @@ export const QUERY_PROFILE = gql`
     profile(_id: $id) {
       _id
       name
-      devType
+      devtype
       wage
       description
-      workHistory
+      workhistory
       education
       hours
       username
@@ -101,10 +101,10 @@ export const QUERY_DEV = gql`
       _id
       image
       name
-      devType
+      devtype
       wage
       description
-      workHistory
+      workhistory
       education
       hours
       username
@@ -114,6 +114,6 @@ export const QUERY_DEV = gql`
 
 export const DEV_TYPES = gql`
   {
-    devTypes
+    devtypes
   }
 `;

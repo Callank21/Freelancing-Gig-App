@@ -69,10 +69,7 @@ const resolvers = {
     },
     createProfile: async (parent, args, context) => {
       if (context.user) {
-        const profile = await Profile.create({
-          ...args,
-          username: context.user.username,
-        });
+        const profile = await Profile.create(args);
 
         await User.findByIdAndUpdate(
           { _id: context.user._id },
