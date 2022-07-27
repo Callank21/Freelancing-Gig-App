@@ -44,11 +44,19 @@ export default function ProfilePage() {
 
           <div className="figures">
             <div className="work history stats">
-            <ul>{profile.workhistory.map(element => <li>○ {element}</li>)}</ul>
+              <ul>
+                {profile.workhistory.map((element) => (
+                  <li key={element.length}>○ {element}</li>
+                ))}
+              </ul>
               <h3>Work History </h3>
             </div>
             <div className="education">
-            <ul>{profile.education.map(element => <li>○ {element}</li>)}</ul>
+              <ul>
+                {profile.education.map((element) => (
+                  <li key={element.length}>○ {element}</li>
+                ))}
+              </ul>
               <h3> Education</h3>
             </div>
             <div className="description stats">

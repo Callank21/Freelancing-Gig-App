@@ -19,9 +19,9 @@ const CategoryPage = (name) => {
   }, [data]);
 
   const card = profCard.map((item) => {
-	function truncate(str, n){
-		return (str.length > n) ? str.substr(0, n-1) + '...' : str;
-	  };
+    function truncate(str, n) {
+      return str.length > n ? str.substr(0, n - 1) + '...' : str;
+    }
     return (
       <Link key={item._id} to={`/profile/${item._id}`}>
         <div className="card">
@@ -46,11 +46,15 @@ const CategoryPage = (name) => {
           </div> */}
           <div className="education">
             <h3>EDUCATION</h3>
-            <ul>{item.education.map(element => <li>○ {truncate(element, 35)}</li>)}</ul>
+            <ul>
+              {item.education.map((element) => (
+                <li key={element.length}>○ {truncate(element, 35)}</li>
+              ))}
+            </ul>
           </div>
           <div className="work history">
             <h3>WORK HISTORY</h3>
-            <ul>{item.workhistory.length} previous jobs</ul>
+            <ul key={item.length}>{item.workhistory.length} previous jobs</ul>
           </div>
         </div>
       </Link>

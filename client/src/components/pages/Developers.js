@@ -8,10 +8,9 @@ import { Link } from 'react-router-dom';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const Developers = () => {
-  const { loading, data } = useQuery(DEV_TYPES);
+  const { data } = useQuery(DEV_TYPES);
   const [devCard, setDevCard] = useState([]);
   useEffect(() => {
-    
     data && setDevCard(data.devtypes);
     // data && setDevCard(data.devType);
   }, [data]);
