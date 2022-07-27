@@ -1,26 +1,23 @@
 import { useQuery } from '@apollo/client';
 import { useEffect, useState } from 'react';
 import { DEV_TYPES } from '../../utils/queries';
-import CategoryPage from './CategoryPage';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+// import CategoryPage from './CategoryPage';
+import { Link } from 'react-router-dom';
 
 // import { devCard } from './devCard.js';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const Developers = () => {
-  const { loading, error, data } = useQuery(DEV_TYPES);
+  const { data } = useQuery(DEV_TYPES);
   const [devCard, setDevCard] = useState([]);
   useEffect(() => {
     data && setDevCard(data.devTypes);
     // data && setDevCard(data.devType);
   }, [data]);
 
-  console.log(data);
-
   const card = devCard.map((item) => {
-    console.log(item);
     return (
-      <Link to={`categories/${item}`}>
+      <Link key={item} to={`/categories/${item}`}>
         <article className="card">
           <h1>{item} Developers</h1>
           <p>
@@ -34,7 +31,7 @@ const Developers = () => {
   return (
     <section>
       <div className="developers" id="developers">
-        <h2>Developers</h2>
+        <h2 className="justify-center">Developers</h2>
       </div>
       <div className="devCards">
         {data && card}

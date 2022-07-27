@@ -63,6 +63,7 @@ a {
   color: #608dfd;
   font-weight: 500;
   font-size: 18px;
+  text-decoration: none;
 }
 a:hover,
 a:focus {
@@ -620,7 +621,7 @@ h2 {
 .profile_container,
 .info,
 .back {
-  margin: 60px 100px 0px;
+  margin: auto;
   max-width: 900px;
   display: flex;
   overflow-x: hidden;
@@ -655,6 +656,7 @@ h2 {
 
 .profile_img_section {
   margin-right: 50px;
+  margin-top: 70px;
 }
 
 .profile_desc_section {
@@ -809,8 +811,9 @@ li p {
 .container {
   justify-content: center;
   content: center;
-  align-items: center;
   display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 #footer {

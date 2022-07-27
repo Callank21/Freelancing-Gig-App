@@ -19,6 +19,7 @@ const typeDefs = gql`
     education: [String]
     hours: Int
     username: String
+    image: String
   }
 
   type Auth {
