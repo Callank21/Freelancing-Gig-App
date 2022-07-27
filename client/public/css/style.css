@@ -213,6 +213,9 @@ select:focus {
   display: flex;
   justify-content: center;
 }
+.error-text {
+  color: rgb(228, 46, 1);
+}
 
 /* ------- Navigation Section --------- */
 
