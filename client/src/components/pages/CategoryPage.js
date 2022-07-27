@@ -16,7 +16,6 @@ const CategoryPage = (name) => {
   const [profCard, setProfCard] = useState([]);
   useEffect(() => {
     data && setProfCard(data.developers);
-    data && console.log(data.developers);
   }, [data]);
 
   const card = profCard.map((item) => {

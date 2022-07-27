@@ -9,15 +9,12 @@ import { Link } from 'react-router-dom';
 
 const Developers = () => {
   const { loading, data } = useQuery(DEV_TYPES);
-  console.log(loading);
-  console.log(data);
   const [devCard, setDevCard] = useState([]);
   useEffect(() => {
-    console.log(data);
+    
     data && setDevCard(data.devtypes);
     // data && setDevCard(data.devType);
   }, [data]);
-
   const card = devCard.map((item) => {
     return (
       <Link key={item} to={`/categories/${item}`}>
