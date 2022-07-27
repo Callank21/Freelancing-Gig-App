@@ -6,7 +6,7 @@ import React from 'react';
 export default function ProfilePage(props) {
   //   const { username: userParam } = useParams();
 
-  //   const { loading, data } = useQuery();
+  //   const { loading, data } = useQuery(QUERY_PROFILE);
 
   //   const user = data?.me || data?.user || {};
   //   if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {

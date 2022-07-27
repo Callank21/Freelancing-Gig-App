@@ -29,7 +29,7 @@ const HomePage = (props) => {
         ,
       </section>
       <section>
-        <Developers />
+          <Developers />
       </section>
     </section>
   );

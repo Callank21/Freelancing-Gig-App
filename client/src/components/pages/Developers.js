@@ -1,6 +1,8 @@
 import { useQuery } from '@apollo/client';
 import { useEffect, useState } from 'react';
 import { DEV_TYPES, QUERY_ME } from '../../utils/queries';
+import CategoryPage from './CategoryPage';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 
 
@@ -20,7 +22,9 @@ const Developers = () => {
   const card = devCard.map(item => {
     console.log(item);
     return (
-      
+      <Link
+      to={`categories/${item}`}
+      >
       <article className="card">
         <h1>{item} Developers</h1>
         <p>
@@ -28,6 +32,7 @@ const Developers = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </article>
+      </Link>
     );
 });
   return (

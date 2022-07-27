@@ -7,6 +7,8 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Developers from './components/pages/Developers';
 import NotFound from './components/pages/NotFound';
+import CategoryPage from './components/pages/CategoryPage';
+import ProfilePage from './components/pages/ProfilePage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import JsonData from "./data/data.json";
 import './App.css';
@@ -47,10 +49,13 @@ function App() {
           <Header />
           <main>
             {/* <ProfilePage /> */}
-            {/* <CategoryPage /> */}
+            <Routes>
+            <Route path="/categories/:type" element={<CategoryPage />} />
+            <Route path="/profile/:id" element={<ProfilePage />} />
+            <Route path="/developers" element={<Developers />} />
+            </Routes>
             <Routes>
               <Route path="/" element={<HomePage />} />
-              <Route path="/developers" element={<Developers />} />
               {/*loggedIn! && 
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
