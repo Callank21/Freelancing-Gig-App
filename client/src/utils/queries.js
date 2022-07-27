@@ -38,6 +38,7 @@ query user($username: String!) {
         hours
         username
     }
+  }
 }
 `;
 
@@ -57,6 +58,7 @@ export const QUERY_USERS = gql`
           education
           hours
           username
+        }
     }
 }
 `;
@@ -94,8 +96,8 @@ export const QUERY_PROFILE = gql`
 `;
 
 export const QUERY_DEV = gql`
-  query profile($devType: String!) {
-    profile(devType: $devType) {
+  query developers($devType: String!) {
+    developers(devType: $devType) {
       _id
       name
       devType
@@ -107,4 +109,10 @@ export const QUERY_DEV = gql`
       username
     }
   }
+`;
+
+export const DEV_TYPES = gql`
+{
+  devTypes
+}
 `;
