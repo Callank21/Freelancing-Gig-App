@@ -184,3 +184,22 @@ button:hover {
 }
 
 /* ProfilePage Section Ends */
+
+
+.title {
+text-align: left;
+}
+
+.user-info {
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 30px;
+padding-bottom: 30px;
+}
+
+label {
+	display: block;
+	font-size: 20px;
+	padding-bottom: 5px;
+	color: black;
+  }
