@@ -94,3 +94,26 @@ export const QUERY_PROFILE = gql`
     }
   }
 `;
+
+export const QUERY_DEV = gql`
+  query developers($devType: String!) {
+    developers(devType: $devType) {
+      _id
+      image
+      name
+      devType
+      wage
+      description
+      workHistory
+      education
+      hours
+      username
+    }
+  }
+`;
+
+export const DEV_TYPES = gql`
+  {
+    devTypes
+  }
+`;

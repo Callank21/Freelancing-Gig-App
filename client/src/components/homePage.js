@@ -31,7 +31,7 @@ const HomePage = (props) => {
       </section>
       <section>
         {/* <Developers /> */}
-        <ProfilePage />
+        {/* <ProfilePage /> */}
       </section>
     </section>
   );

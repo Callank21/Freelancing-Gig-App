@@ -1,11 +1,44 @@
+import { useQuery } from '@apollo/client';
+import { useEffect, useState } from 'react';
+import { DEV_TYPES } from '../../utils/queries';
+import CategoryPage from './CategoryPage';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
+// import { devCard } from './devCard.js';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 const Developers = () => {
+  const { loading, error, data } = useQuery(DEV_TYPES);
+  const [devCard, setDevCard] = useState([]);
+  useEffect(() => {
+    data && setDevCard(data.devTypes);
+    // data && setDevCard(data.devType);
+  }, [data]);
+
+  console.log(data);
+
+  const card = devCard.map((item) => {
+    console.log(item);
+    return (
+      <Link to={`categories/${item}`}>
+        <article className="card">
+          <h1>{item} Developers</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </article>
+      </Link>
+    );
+  });
   return (
     <section>
       <div className="developers" id="developers">
         <h2>Developers</h2>
       </div>
       <div className="devCards">
-        <article className="card">
+        {data && card}
+        {/* <article className="card">
           <h1>Software Developers</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -60,7 +93,7 @@ const Developers = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-        </article>
+        </article> */}
       </div>
     </section>
   );

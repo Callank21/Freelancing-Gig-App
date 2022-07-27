@@ -1,12 +1,15 @@
 import React from 'react';
-// import { Navigate, useParams } from 'react-router-dom';
-// import { useQuery, useMutation } from '@apollo/client';
+import { useParams } from 'react-router-dom';
+import { useQuery } from '@apollo/client';
 // import Auth from '../../utils/auth';
+import { QUERY_PROFILE } from '../../utils/queries';
 
 export default function ProfilePage(props) {
-  //   const { username: userParam } = useParams();
+  const { id: profileId } = useParams();
 
-  //   const { loading, data } = useQuery();
+  const { loading, data } = useQuery(QUERY_PROFILE, {
+    variables: { id: profileId },
+  });
 
   //   const user = data?.me || data?.user || {};
   //   if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {

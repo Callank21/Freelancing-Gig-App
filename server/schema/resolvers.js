@@ -32,6 +32,16 @@ const resolvers = {
     profile: async (parent, { _id }) => {
       return Profile.findOne({ _id });
     },
+
+    developers: async (parent, { devType }) => {
+      return Profile.find({ devType: devType });
+    },
+
+    devTypes: async () => {
+      return (await Profile.find())
+        .map((item) => item.devType)
+        .filter((v, i, a) => a.indexOf(v) === i);
+    },
   },
 
   Mutation: {
