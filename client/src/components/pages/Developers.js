@@ -1,6 +1,6 @@
 import { useQuery } from '@apollo/client';
 import { useEffect, useState } from 'react';
-import { DEV_TYPES, QUERY_ME } from '../../utils/queries';
+import { DEV_TYPES } from '../../utils/queries';
 import CategoryPage from './CategoryPage';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 

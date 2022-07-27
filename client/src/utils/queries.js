@@ -99,6 +99,7 @@ export const QUERY_DEV = gql`
   query developers($devType: String!) {
     developers(devType: $devType) {
       _id
+      image
       name
       devType
       wage

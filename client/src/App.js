@@ -51,7 +51,7 @@ function App() {
           <main>
             {/* <ProfilePage /> */}
             <Routes>
-            <Route path="/categories/:type" element={<CategoryPage />} />
+            <Route path="/categories/:devType" element={<CategoryPage />} />
             <Route path="/profile/:id" element={<ProfilePage />} />
             <Route path="/developers" element={<Developers />} />
             </Routes>
