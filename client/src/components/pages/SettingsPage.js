@@ -62,10 +62,12 @@ export default function Settings() {
                     <section>
                       <form className="account-settings-form" id="formzz">
                         <div className="form-field field-1 short">
+                          <label htmlFor="platform-name">My Username:</label>
+                          <span>{data?.me.username}</span>
                           <label htmlFor="platform-name">
                             My Email Address:
                           </label>
-                          <span> {data?.me.email} </span>
+                          <span>{data?.me.email}</span>
                         </div>
 
                         <div className="settings-actions">
