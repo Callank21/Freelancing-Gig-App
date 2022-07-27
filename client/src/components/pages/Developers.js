@@ -20,6 +20,7 @@ const Developers = () => {
   const card = devCard.map(item => {
     console.log(item);
     return (
+      
       <article className="card">
         <h1>{item} Developers</h1>
         <p>
