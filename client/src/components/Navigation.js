@@ -29,6 +29,16 @@ function Navigation() {
                 SIGNUP
               </li>
             </Link>
+            <Link to="/">
+              <li key="signout" className="nav-p">
+                SIGNOUT
+              </li>
+            </Link>
+            <Link to="/profile">
+              <li key="profile" className="nav-p">
+               My Profile
+              </li>
+            </Link>
             <Link to="/settings">
               <li key="settings" className="nav-p">
                 <i className="fa-solid fa-cog "></i>
