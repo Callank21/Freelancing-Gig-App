@@ -22,14 +22,14 @@ function Navigation() {
             </Link>
             {Auth.loggedIn() ? (
               <>
-                <Link to="/settings">
-                  <li key="settings" className="nav-p">
-                    <i className="fa-solid fa-cog "></i>
-                  </li>
-                </Link>
                 <Link to="/" onClick={Auth.logout}>
                   <li key="login" className="nav-p">
                     LOGOUT
+                  </li>
+                </Link>
+                <Link to="/settings">
+                  <li key="settings" className="nav-p">
+                    <i className="fa-solid fa-cog "></i>
                   </li>
                 </Link>
               </>
