@@ -20,7 +20,7 @@ app.use(express.json());
 
 //Serve up static assets
 if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../client/build/')));
+  app.use(express.static(path.join(__dirname, '../client/public/')));
 }
 
 app.get('*', (req, res) => {
