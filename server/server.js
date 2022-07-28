@@ -36,31 +36,6 @@ const startApolloServer = async (typeDefs, resolvers) => {
   server.applyMiddleware({ app });
 
   db.once('open', () => {
-    try {
-      Profile.deleteMany({});
-      User.deleteMany({});
-
-      User.create(userSeeds);
-
-      for (let i = 0; i < profileSeeds.length; i++) {
-        const { _id, username } = Profile.create(profileSeeds[i]);
-
-        User.findOneAndUpdate(
-          { username: username },
-          {
-            $addToSet: {
-              profile: _id,
-            },
-          }
-        );
-      }
-    } catch (err) {
-      console.error(err);
-      process.exit(1);
-    }
-
-    console.log('all done!');
-    process.exit(0);
     app.listen(PORT, () => {
       console.log(`API server running on port ${PORT}!`);
       console.log(
