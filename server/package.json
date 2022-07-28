@@ -1,0 +1,21 @@
+{
+  "name": "freelancer-gig-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon",
+    "seed": "node seeders/seeds.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.10.0",
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "graphql": "^16.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.7",
+    "nodemon": "^2.0.19",
+    "yarn": "^1.22.19"
+  }
+}
