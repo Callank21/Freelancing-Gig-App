@@ -1,10 +1,12 @@
 const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
 const path = require('path');
-
+const { User, Profile } = require('./models');
 const { typeDefs, resolvers } = require('./schema');
 const { authMiddleware } = require('./utils/auth');
 const db = require('./config/connection');
+const profileSeeds = require('./seeders/profileSeed.json');
+const userSeeds = require('./seeders/userSeed.json');
 
 const PORT = process.env.PORT || 3001;
 const server = new ApolloServer({
@@ -40,6 +42,31 @@ const startApolloServer = async (typeDefs, resolvers) => {
         `Use GraphQL at http://localhost:${PORT}${server.graphqlPath}`
       );
     });
+    try {
+      Profile.deleteMany({});
+      User.deleteMany({});
+
+      User.create(userSeeds);
+
+      for (let i = 0; i < profileSeeds.length; i++) {
+        const { _id, username } = Profile.create(profileSeeds[i]);
+
+        User.findOneAndUpdate(
+          { username: username },
+          {
+            $addToSet: {
+              profile: _id,
+            },
+          }
+        );
+      }
+    } catch (err) {
+      console.error(err);
+      process.exit(1);
+    }
+
+    console.log('all done!');
+    process.exit(0);
   });
 };
 
