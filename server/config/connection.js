@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/freelancing-gig-app',
+  process.env.MONGODB_URI || 'mongodb+srv://Callank21:qPE0mNLU7jh5490B@cluster0.c0mdl.mongodb.net/?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
