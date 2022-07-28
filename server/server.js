@@ -1,12 +1,9 @@
 const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
 const path = require('path');
-const { User, Profile } = require('./models');
 const { typeDefs, resolvers } = require('./schema');
 const { authMiddleware } = require('./utils/auth');
 const db = require('./config/connection');
-const profileSeeds = require('./seeders/profileSeed.json');
-const userSeeds = require('./seeders/userSeed.json');
 
 const PORT = process.env.PORT || 3001;
 const server = new ApolloServer({
